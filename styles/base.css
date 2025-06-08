@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Background color */
+body {
+    min-height: 100vh;
+    background-color: white;
+}
+
+/* Header Formatting  */
+nav {
+    background-color: #88D298;
+    box-shadow: 3px 3px 5px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 100px;
+}
+
+/* This is for the selection/links in the header */
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+nav li {
+    height: 100px;
+}
+
+nav a {
+    padding: 0 30px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    color: black;
+    height: 100%;
+}
+
+nav ul a:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+/* formatting for the logo */
+nav .logo {
+    display: block;
+    width: auto;
+    height: 90px;
+    border-radius: 30%;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
