@@ -1,0 +1,50 @@
+
+.state {
+    fill:#D0D0D0;
+}                        /* default color for all states not specified below */
+.borders {
+    stroke:#FFFFFF; 
+    stroke-width:1;
+}    /* color and width of borders between states */
+.dccircle {display:yes}                      /* set display to yes to show the circle for the District of Columbia, or none to hide it */
+.separator1 {stroke:#B0B0B0; stroke-width:2} /* color and width of lines around Alaska and Hawaii */
+
+/* Individual states can be colored as follows:
+.ks,.mt,.pa {fill:#0000FF}
+.ca,.de {fill:#FF0000}
+In this example, Kansas, Montana and Pennsylvania are colored blue, and California and Delaware are colored red.
+Place this code in the empty space below. */
+
+
+/* State Average Sales Tax Legend */
+.noSalesTax{fill: #d5b3ff;} /* 0% Sales tax */
+.lowSalesTax{fill: #b375ff;} /* greater than 0% to less than 2% average sales tax*/
+.mediumSalesTax{fill: #8744c5;} /* greater than 2% to 6.5% average sales tax*/
+.highSalesTax{fill: #4b0082;} /* greater than 6.5% to less than 8% average sales tax*/
+.veryHighSalesTax{fill: #22003a;} /* greater than 8% to less than 8% average sales tax*/
+
+.hoverFill:hover{
+fill:pink;
+}
+          
+path {
+    fill:#d0d0d0;stroke:#000;stroke-width:.17829;
+}
+#borders {
+    fill:none;
+    stroke:#221e1f;
+    stroke-width:.89143;
+}
+#separatorAK-HI {
+    fill:none;
+    stroke:#a9a9a9;
+    stroke-width:2.3177309;
+}
+
+/*
+#separatorAK-HI{display: none;}
+#Alabama {display: none;}
+*/
+path:hover{
+    fill: pink;
+}
