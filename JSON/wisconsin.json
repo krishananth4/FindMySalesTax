@@ -1,0 +1,293 @@
+{
+    "state": "Wisconsin",
+    "counties": [
+        {
+            "name": "Adams County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Ashland County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Barron County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Bayfield County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Brown County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Buffalo County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Burnett County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Calumet County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Chippewa County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Clark County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Columbia County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Crawford County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Dane County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Dodge County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Door County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Douglas County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Dunn County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Eau Claire County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Florence County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Fond Du Lac County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Forest County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Green County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Green Lake County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Iowa County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Iron County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Juneau County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Kenosha County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Kewaunee County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "La Crosse County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Lafayette County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Langlade County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Manitowoc County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Marathon County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Marinette County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Marquette County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Menominee County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Milwaukee County",
+            "taxRate": 7.9
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Oconto County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Oneida County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Outagamie County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Ozaukee County",
+            "taxRate": 5.9
+        },
+        {
+            "name": "Pepin County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Pierce County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Portage County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Price County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Racine County",
+            "taxRate": 5.9
+        },
+        {
+            "name": "Richland County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Rock County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Rusk County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Sauk County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Sawyer County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Shawano County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Sheboygan County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "St Croix County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Taylor County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Trempealeau County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Vernon County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Vilas County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Walworth County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Washburn County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Waukesha County",
+            "taxRate": 7.9
+        },
+        {
+            "name": "Waupaca County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Waushara County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Winnebago County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Wood County",
+            "taxRate": 5.5
+        }
+    ]
+}

@@ -1,0 +1,273 @@
+{
+    "state": "Alabama",
+    "counties": [
+        {
+            "name": "Autauga County",
+            "taxRate": 10
+        },
+        {
+            "name": "Baldwin County",
+            "taxRate": 11
+        },
+        {
+            "name": "Barbour County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Bibb County",
+            "taxRate": 10
+        },
+        {
+            "name": "Blount County",
+            "taxRate": 12
+        },
+        {
+            "name": "Bullock County",
+            "taxRate": 10
+        },
+        {
+            "name": "Butler County",
+            "taxRate": 10
+        },
+        {
+            "name": "Calhoun County",
+            "taxRate": 10
+        },
+        {
+            "name": "Chambers County",
+            "taxRate": 10
+        },
+        {
+            "name": "Cherokee County",
+            "taxRate": 10
+        },
+        {
+            "name": "Chilton County",
+            "taxRate": 11
+        },
+        {
+            "name": "Choctaw County",
+            "taxRate": 10
+        },
+        {
+            "name": "Clarke County",
+            "taxRate": 10
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Cleburne County",
+            "taxRate": 9
+        },
+        {
+            "name": "Coffee County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Colbert County",
+            "taxRate": 10
+        },
+        {
+            "name": "Conecuh County",
+            "taxRate": 10
+        },
+        {
+            "name": "Coosa County",
+            "taxRate": 10
+        },
+        {
+            "name": "Covington County",
+            "taxRate": 10
+        },
+        {
+            "name": "Crenshaw County",
+            "taxRate": 10
+        },
+        {
+            "name": "Cullman County",
+            "taxRate": 10
+        },
+        {
+            "name": "Dale County",
+            "taxRate": 10
+        },
+        {
+            "name": "Dallas County",
+            "taxRate": 10
+        },
+        {
+            "name": "Dekalb County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Elmore County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Escambia County",
+            "taxRate": 11
+        },
+        {
+            "name": "Etowah County",
+            "taxRate": 12
+        },
+        {
+            "name": "Fayette County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 10
+        },
+        {
+            "name": "Geneva County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 10
+        },
+        {
+            "name": "Hale County",
+            "taxRate": 10
+        },
+        {
+            "name": "Henry County",
+            "taxRate": 10
+        },
+        {
+            "name": "Houston County",
+            "taxRate": 10
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 9
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 10
+        },
+        {
+            "name": "Lamar County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Lauderdale County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Lawrence County",
+            "taxRate": 10
+        },
+        {
+            "name": "Lee County",
+            "taxRate": 10
+        },
+        {
+            "name": "Limestone County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Lowndes County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Macon County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Marengo County",
+            "taxRate": 10
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 11
+        },
+        {
+            "name": "Marshall County",
+            "taxRate": 12.5
+        },
+        {
+            "name": "Mobile County",
+            "taxRate": 10
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 10
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 10
+        },
+        {
+            "name": "Morgan County",
+            "taxRate": 9
+        },
+        {
+            "name": "Perry County",
+            "taxRate": 10
+        },
+        {
+            "name": "Pickens County",
+            "taxRate": 10
+        },
+        {
+            "name": "Pike County",
+            "taxRate": 10
+        },
+        {
+            "name": "Randolph County",
+            "taxRate": 10
+        },
+        {
+            "name": "Russell County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Shelby County",
+            "taxRate": 12
+        },
+        {
+            "name": "St Clair County",
+            "taxRate": 10
+        },
+        {
+            "name": "Sumter County",
+            "taxRate": 11
+        },
+        {
+            "name": "Talladega County",
+            "taxRate": 10
+        },
+        {
+            "name": "Tallapoosa County",
+            "taxRate": 10
+        },
+        {
+            "name": "Tuscaloosa County",
+            "taxRate": 10
+        },
+        {
+            "name": "Walker County",
+            "taxRate": 10
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 10
+        },
+        {
+            "name": "Wilcox County",
+            "taxRate": 11
+        },
+        {
+            "name": "Winston County",
+            "taxRate": 10
+        }
+    ]
+}

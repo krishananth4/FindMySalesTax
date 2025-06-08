@@ -1,0 +1,1025 @@
+{
+    "state": "Texas",
+    "counties": [
+        {
+            "name": "Anderson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Andrews County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Angelina County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Aransas County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Archer County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Armstrong County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Atascosa County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Austin County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Bailey County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Bandera County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Bastrop County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Baylor County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Bee County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Bell County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Bexar County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Blanco County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Borden County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Bosque County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Bowie County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Brazoria County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Brazos County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Brewster County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Briscoe County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Brooks County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Brown County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Burleson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Burnet County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Caldwell County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Calhoun County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Callahan County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Cameron County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Camp County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Carson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Cass County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Castro County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Chambers County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Cherokee County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Childress County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Cochran County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Coke County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Coleman County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Collin County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Collingsworth County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Colorado County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Comal County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Comanche County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Concho County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Cooke County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Coryell County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Cottle County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Crane County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Crockett County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Crosby County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Culberson County",
+            "taxRate": 8.00
+        },
+        {
+            "name": "Dallam County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Dallas County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Dawson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "De Witt County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Deaf Smith County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Delta County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Denton County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Dickens County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Dimmit County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Donley County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Duval County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Eastland County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Ector County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Edwards County",
+            "taxRate": 8.00
+        },
+        {
+            "name": "El Paso County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Ellis County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Erath County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Falls County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Fannin County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Fayette County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Fisher County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Floyd County",
+            "taxRate": 8.00
+        },
+        {
+            "name": "Foard County",
+            "taxRate": 8.00
+        },
+        {
+            "name": "Fort Bend County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Freestone County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Frio County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Gaines County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Galveston County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Garza County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Gillespie County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Glasscock County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Goliad County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Gonzales County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Gray County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Grayson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Gregg County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Grimes County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Guadalupe County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hale County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hall County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hamilton County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hansford County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hardeman County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hardin County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Harris County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Harrison County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hartley County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Haskell County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hays County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hemphill County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Henderson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hidalgo County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hill County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hockley County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hood County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hopkins County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Houston County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Howard County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hudspeth County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Hunt County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hutchinson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Irion County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Jack County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Jasper County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Jeff Davis County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Jim Hogg County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Jim Wells County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Johnson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Jones County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Karnes County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Kaufman County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Kendall County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Kenedy County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Kent County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Kerr County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Kimble County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "King County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Kinney County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Kleberg County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Knox County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "La Salle County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Lamar County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Lamb County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Lampasas County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Lavaca County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Lea County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Lee County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Leon County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Liberty County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Limestone County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Lipscomb County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Live Oak County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Llano County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Loving County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Lubbock County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Lynn County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Martin County",
+            "taxRate": 8.00
+        },
+        {
+            "name": "Mason County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Matagorda County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Maverick County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Mcculloch County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Mclennan County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Mcmullen County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Medina County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Menard County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Midland County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Milam County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Mills County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Mitchell County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Montague County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Moore County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Morris County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Motley County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Nacogdoches County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Navarro County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Newton County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Nolan County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Nueces County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Ochiltree County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Oldham County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Orange County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Palo Pinto County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Panola County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Parker County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Parmer County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Pecos County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Potter County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Presidio County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Rains County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Randall County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Reagan County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Real County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Red River County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Reeves County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Refugio County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Roberts County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Robertson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Rockwall County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Runnels County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Rusk County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Sabine County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "San Augustine County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "San Jacinto County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "San Patricio County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "San Saba County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Schleicher County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Scurry County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Shackelford County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Shelby County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Sherman County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Smith County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Somervell County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Starr County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Stephens County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Sterling County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Stonewall County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Sutton County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Swisher County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Tarrant County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Taylor County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Terrell County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Terry County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Throckmorton County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Titus County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Tom Green County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Travis County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Trinity County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Tyler County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Upshur County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Upton County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Uvalde County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Val Verde County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Van Zandt County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Victoria County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Walker County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Waller County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Ward County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Webb County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Wharton County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Wheeler County",
+            "taxRate": 8.00
+        },
+        {
+            "name": "Wichita County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Wilbarger County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Willacy County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Williamson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Wilson County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Winkler County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Wise County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Wood County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Yoakum County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Young County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Zapata County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Zavala County",
+            "taxRate": 8.25
+        }
+    ]
+}

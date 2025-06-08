@@ -1,0 +1,373 @@
+{
+    "state": "Indiana",
+    "counties": [
+        {
+            "name": "Adams County",
+            "taxRate": 7
+        },
+        {
+            "name": "Allen County",
+            "taxRate": 7
+        },
+        {
+            "name": "Bartholomew County",
+            "taxRate": 7
+        },
+        {
+            "name": "Benton County",
+            "taxRate": 7
+        },
+        {
+            "name": "Blackford County",
+            "taxRate": 7
+        },
+        {
+            "name": "Boone County",
+            "taxRate": 7
+        },
+        {
+            "name": "Brown County",
+            "taxRate": 7
+        },
+        {
+            "name": "Carroll County",
+            "taxRate": 7
+        },
+        {
+            "name": "Cass County",
+            "taxRate": 7
+        },
+        {
+            "name": "Clark County",
+            "taxRate": 7
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 7
+        },
+        {
+            "name": "Clinton County",
+            "taxRate": 7
+        },
+        {
+            "name": "Crawford County",
+            "taxRate": 7
+        },
+        {
+            "name": "Daviess County",
+            "taxRate": 7
+        },
+        {
+            "name": "De Kalb County",
+            "taxRate": 7
+        },
+        {
+            "name": "Dearborn County",
+            "taxRate": 7
+        },
+        {
+            "name": "Decatur County",
+            "taxRate": 7
+        },
+        {
+            "name": "Delaware County",
+            "taxRate": 7
+        },
+        {
+            "name": "Dubois County",
+            "taxRate": 7
+        },
+        {
+            "name": "Elkhart County",
+            "taxRate": 7
+        },
+        {
+            "name": "Fayette County",
+            "taxRate": 7
+        },
+        {
+            "name": "Floyd County",
+            "taxRate": 7
+        },
+        {
+            "name": "Fountain County",
+            "taxRate": 7
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 7
+        },
+        {
+            "name": "Fulton County",
+            "taxRate": 7
+        },
+        {
+            "name": "Gibson County",
+            "taxRate": 7
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 7
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 7
+        },
+        {
+            "name": "Hamilton County",
+            "taxRate": 7
+        },
+        {
+            "name": "Hancock County",
+            "taxRate": 7
+        },
+        {
+            "name": "Harrison County",
+            "taxRate": 7
+        },
+        {
+            "name": "Hendricks County",
+            "taxRate": 7
+        },
+        {
+            "name": "Henry County",
+            "taxRate": 7
+        },
+        {
+            "name": "Howard County",
+            "taxRate": 7
+        },
+        {
+            "name": "Huntington County",
+            "taxRate": 7
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 7
+        },
+        {
+            "name": "Jasper County",
+            "taxRate": 7
+        },
+        {
+            "name": "Jay County",
+            "taxRate": 7
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 7
+        },
+        {
+            "name": "Jennings County",
+            "taxRate": 7
+        },
+        {
+            "name": "Johnson County",
+            "taxRate": 7
+        },
+        {
+            "name": "Knox County",
+            "taxRate": 7
+        },
+        {
+            "name": "Kosciusko County",
+            "taxRate": 7
+        },
+        {
+            "name": "La Porte County",
+            "taxRate": 7
+        },
+        {
+            "name": "Lagrange County",
+            "taxRate": 7
+        },
+        {
+            "name": "Lake County",
+            "taxRate": 7
+        },
+        {
+            "name": "Lawrence County",
+            "taxRate": 7
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 7
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 7
+        },
+        {
+            "name": "Marshall County",
+            "taxRate": 7
+        },
+        {
+            "name": "Martin County",
+            "taxRate": 7
+        },
+        {
+            "name": "Miami County",
+            "taxRate": 7
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 7
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 7
+        },
+        {
+            "name": "Morgan County",
+            "taxRate": 7
+        },
+        {
+            "name": "Newton County",
+            "taxRate": 7
+        },
+        {
+            "name": "Noble County",
+            "taxRate": 7
+        },
+        {
+            "name": "Ohio County",
+            "taxRate": 7
+        },
+        {
+            "name": "Orange County",
+            "taxRate": 7
+        },
+        {
+            "name": "Owen County",
+            "taxRate": 7
+        },
+        {
+            "name": "Parke County",
+            "taxRate": 7
+        },
+        {
+            "name": "Perry County",
+            "taxRate": 7
+        },
+        {
+            "name": "Pike County",
+            "taxRate": 7
+        },
+        {
+            "name": "Porter County",
+            "taxRate": 7
+        },
+        {
+            "name": "Posey County",
+            "taxRate": 7
+        },
+        {
+            "name": "Pulaski County",
+            "taxRate": 7
+        },
+        {
+            "name": "Putnam County",
+            "taxRate": 7
+        },
+        {
+            "name": "Randolph County",
+            "taxRate": 7
+        },
+        {
+            "name": "Ripley County",
+            "taxRate": 7
+        },
+        {
+            "name": "Rush County",
+            "taxRate": 7
+        },
+        {
+            "name": "Scott County",
+            "taxRate": 7
+        },
+        {
+            "name": "Shelby County",
+            "taxRate": 7
+        },
+        {
+            "name": "Spencer County",
+            "taxRate": 7
+        },
+        {
+            "name": "St Joseph County",
+            "taxRate": 7
+        },
+        {
+            "name": "Starke County",
+            "taxRate": 7
+        },
+        {
+            "name": "Steuben County",
+            "taxRate": 7
+        },
+        {
+            "name": "Sullivan County",
+            "taxRate": 7
+        },
+        {
+            "name": "Switzerland County",
+            "taxRate": 7
+        },
+        {
+            "name": "Tippecanoe County",
+            "taxRate": 7
+        },
+        {
+            "name": "Tipton County",
+            "taxRate": 7
+        },
+        {
+            "name": "Union County",
+            "taxRate": 7
+        },
+        {
+            "name": "Vanderburgh County",
+            "taxRate": 7
+        },
+        {
+            "name": "Vermillion County",
+            "taxRate": 7
+        },
+        {
+            "name": "Vigo County",
+            "taxRate": 7
+        },
+        {
+            "name": "Wabash County",
+            "taxRate": 7
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 7
+        },
+        {
+            "name": "Warrick County",
+            "taxRate": 7
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 7
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 7
+        },
+        {
+            "name": "Wells County",
+            "taxRate": 7
+        },
+        {
+            "name": "White County",
+            "taxRate": 7
+        },
+        {
+            "name": "Whitley County",
+            "taxRate": 7
+        }
+    ]
+}

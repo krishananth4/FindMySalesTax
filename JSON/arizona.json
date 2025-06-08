@@ -1,0 +1,65 @@
+{
+    "state": "Arizona",
+    "counties": [
+        {
+            "name": "Apache County",
+            "taxRate": 9.43
+        },
+        {
+            "name": "Cochise County",
+            "taxRate": 10.4
+        },
+        {
+            "name": "Coconino County",
+            "taxRate": 10.9
+        },
+        {
+            "name": "Gila County",
+            "taxRate": 10.48
+        },
+        {
+            "name": "Graham County",
+            "taxRate": 9.1
+        },
+        {
+            "name": "Greenlee County",
+            "taxRate": 9.1
+        },
+        {
+            "name": "La Paz County",
+            "taxRate": 9.1
+        },
+        {
+            "name": "Maricopa County",
+            "taxRate": 10.3
+        },
+        {
+            "name": "Mohave County",
+            "taxRate": 8.6
+        },
+        {
+            "name": "Navajo County",
+            "taxRate": 9.43
+        },
+        {
+            "name": "Pima County",
+            "taxRate": 11.1
+        },
+        {
+            "name": "Pinal County",
+            "taxRate": 11.7
+        },
+        {
+            "name": "Santa Cruz County",
+            "taxRate": 9.6
+        },
+        {
+            "name": "Yavapai County",
+            "taxRate": 10.4
+        },
+        {
+            "name": "Yuma County",
+            "taxRate": 10.712
+        }
+    ]
+}

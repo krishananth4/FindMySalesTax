@@ -1,0 +1,357 @@
+{
+    "state": "Ohio",
+    "counties": [
+        {
+            "name": "Adams County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Allen County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Ashland County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Ashtabula County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Athens County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Auglaize County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Belmont County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Brown County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Butler County",
+            "taxRate": 7.8
+        },
+        {
+            "name": "Carroll County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Champaign County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Clark County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Clermont County",
+            "taxRate": 7.8
+        },
+        {
+            "name": "Clinton County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Columbiana County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Coshocton County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Crawford County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Cuyahoga County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Darke County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Defiance County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Delaware County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Erie County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Fairfield County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Fayette County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Fulton County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Gallia County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Geauga County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Guernsey County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Hamilton County",
+            "taxRate": 7.8
+        },
+        {
+            "name": "Hancock County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Hardin County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Harrison County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Henry County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Highland County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Hocking County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Holmes County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Huron County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Knox County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Lake County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Lawrence County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Licking County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Logan County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Lorain County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Lucas County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Mahoning County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Medina County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Meigs County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Mercer County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Miami County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Morgan County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Morrow County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Muskingum County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Noble County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Ottawa County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Paulding County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Perry County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Pickaway County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Pike County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Portage County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Preble County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Putnam County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Richland County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Ross County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Sandusky County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Scioto County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Seneca County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Shelby County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Stark County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Summit County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Trumbull County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Tuscarawas County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Union County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Van Wert County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Vinton County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Williams County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Wood County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Wyandot County",
+            "taxRate": 7.25
+        }
+    ]
+}

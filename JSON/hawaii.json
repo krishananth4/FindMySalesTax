@@ -1,0 +1,25 @@
+{
+    "state": "Hawaii",
+    "counties": [
+        {
+            "name": "Hawaii County",
+            "taxRate": 4.5
+        },
+        {
+            "name": "Honolulu County",
+            "taxRate": 4.5
+        },
+        {
+            "name": "Kalawao County",
+            "taxRate": 4.5
+        },
+        {
+            "name": "Kauai County",
+            "taxRate": 4.5
+        },
+        {
+            "name": "Maui County",
+            "taxRate": 4.5
+        }
+    ]
+}

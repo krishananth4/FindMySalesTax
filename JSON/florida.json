@@ -1,0 +1,273 @@
+{
+    "state": "Florida",
+    "counties": [
+        {
+            "name": "Alachua County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Baker County",
+            "taxRate": 7
+        },
+        {
+            "name": "Bay County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Bradford County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Brevard County",
+            "taxRate": 7
+        },
+        {
+            "name": "Broward County",
+            "taxRate": 7
+        },
+        {
+            "name": "Calhoun County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Charlotte County",
+            "taxRate": 7
+        },
+        {
+            "name": "Citrus County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Collier County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Columbia County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Desoto County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Dixie County",
+            "taxRate": 7
+        },
+        {
+            "name": "Duval County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Escambia County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Flagler County",
+            "taxRate": 7
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Gadsden County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Gilchrist County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Glades County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Gulf County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Hamilton County",
+            "taxRate": 8
+        },
+        {
+            "name": "Hardee County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Hendry County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Hernando County",
+            "taxRate": 7
+        },
+        {
+            "name": "Highlands County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Hillsborough County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Holmes County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Indian River County",
+            "taxRate": 7
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Lafayette County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Lake County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Lee County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Leon County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Levy County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Liberty County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 8
+        },
+        {
+            "name": "Manatee County",
+            "taxRate": 7
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Martin County",
+            "taxRate": 7
+        },
+        {
+            "name": "Miami-Dade County",
+            "taxRate": 7
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Nassau County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Okaloosa County",
+            "taxRate": 7
+        },
+        {
+            "name": "Okeechobee County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Orange County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Osceola County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Palm Beach County",
+            "taxRate": 7
+        },
+        {
+            "name": "Pasco County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Pinellas County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Putnam County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Santa Rosa County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Sarasota County",
+            "taxRate": 7
+        },
+        {
+            "name": "Seminole County",
+            "taxRate": 7
+        },
+        {
+            "name": "St Johns County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "St Lucie County",
+            "taxRate": 7
+        },
+        {
+            "name": "Sumter County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Suwannee County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Taylor County",
+            "taxRate": 7
+        },
+        {
+            "name": "Union County",
+            "taxRate": 7
+        },
+        {
+            "name": "Volusia County",
+            "taxRate": 7
+        },
+        {
+            "name": "Wakulla County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Walton County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 7.5
+        }
+    ]
+}

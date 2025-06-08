@@ -1,0 +1,461 @@
+{
+    "state": "Missouri",
+    "counties": [
+        {
+            "name": "Adair County",
+            "taxRate": 9.725
+        },
+        {
+            "name": "Andrew County",
+            "taxRate": 9.425
+        },
+        {
+            "name": "Atchison County",
+            "taxRate": 8.975
+        },
+        {
+            "name": "Audrain County",
+            "taxRate": 8.85
+        },
+        {
+            "name": "Barry County",
+            "taxRate": 9.975
+        },
+        {
+            "name": "Barton County",
+            "taxRate": 8.975
+        },
+        {
+            "name": "Bates County",
+            "taxRate": 8.85
+        },
+        {
+            "name": "Benton County",
+            "taxRate": 9.1
+        },
+        {
+            "name": "Bollinger County",
+            "taxRate": 9.35
+        },
+        {
+            "name": "Boone County",
+            "taxRate": 10.475
+        },
+        {
+            "name": "Buchanan County",
+            "taxRate": 11.2
+        },
+        {
+            "name": "Butler County",
+            "taxRate": 8.975
+        },
+        {
+            "name": "Caldwell County",
+            "taxRate": 8.725
+        },
+        {
+            "name": "Callaway County",
+            "taxRate": 9.725
+        },
+        {
+            "name": "Camden County",
+            "taxRate": 10.475
+        },
+        {
+            "name": "Cape Girardeau County",
+            "taxRate": 9.475
+        },
+        {
+            "name": "Carroll County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Carter County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Cass County",
+            "taxRate": 10.1
+        },
+        {
+            "name": "Cedar County",
+            "taxRate": 8.725
+        },
+        {
+            "name": "Chariton County",
+            "taxRate": 8.225
+        },
+        {
+            "name": "Christian County",
+            "taxRate": 10.35
+        },
+        {
+            "name": "Clark County",
+            "taxRate": 7.725
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 10.85
+        },
+        {
+            "name": "Clinton County",
+            "taxRate": 10.975
+        },
+        {
+            "name": "Cole County",
+            "taxRate": 8.85
+        },
+        {
+            "name": "Cooper County",
+            "taxRate": 9.725
+        },
+        {
+            "name": "Crawford County",
+            "taxRate": 9.975
+        },
+        {
+            "name": "Dade County",
+            "taxRate": 9.475
+        },
+        {
+            "name": "Dallas County",
+            "taxRate": 8.225
+        },
+        {
+            "name": "Daviess County",
+            "taxRate": 8.35
+        },
+        {
+            "name": "Dekalb County",
+            "taxRate": 9.975
+        },
+        {
+            "name": "Dent County",
+            "taxRate": 9.35
+        },
+        {
+            "name": "Douglas County",
+            "taxRate": 8.225
+        },
+        {
+            "name": "Dunklin County",
+            "taxRate": 9.1625
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 10.738
+        },
+        {
+            "name": "Gasconade County",
+            "taxRate": 9.475
+        },
+        {
+            "name": "Gentry County",
+            "taxRate": 7.725
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 10.6
+        },
+        {
+            "name": "Grundy County",
+            "taxRate": 8.35
+        },
+        {
+            "name": "Harrison County",
+            "taxRate": 7.85
+        },
+        {
+            "name": "Henry County",
+            "taxRate": 8.675
+        },
+        {
+            "name": "Hickory County",
+            "taxRate": 8.225
+        },
+        {
+            "name": "Holt County",
+            "taxRate": 8.225
+        },
+        {
+            "name": "Howard County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Howell County",
+            "taxRate": 9.412
+        },
+        {
+            "name": "Iron County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 11.975
+        },
+        {
+            "name": "Jasper County",
+            "taxRate": 9.35
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 11.6
+        },
+        {
+            "name": "Johnson County",
+            "taxRate": 10.1
+        },
+        {
+            "name": "Knox County",
+            "taxRate": 8.225
+        },
+        {
+            "name": "Laclede County",
+            "taxRate": 9.413
+        },
+        {
+            "name": "Lafayette County",
+            "taxRate": 9.975
+        },
+        {
+            "name": "Lawrence County",
+            "taxRate": 9.85
+        },
+        {
+            "name": "Lewis County",
+            "taxRate": 8.975
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 10.475
+        },
+        {
+            "name": "Linn County",
+            "taxRate": 8.975
+        },
+        {
+            "name": "Livingston County",
+            "taxRate": 8.975
+        },
+        {
+            "name": "Macon County",
+            "taxRate": 8.6
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Maries County",
+            "taxRate": 8.975
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 9.85
+        },
+        {
+            "name": "Mcdonald County",
+            "taxRate": 8.225
+        },
+        {
+            "name": "Mercer County",
+            "taxRate": 9.475
+        },
+        {
+            "name": "Miller County",
+            "taxRate": 9.475
+        },
+        {
+            "name": "Mississippi County",
+            "taxRate": 8.475
+        },
+        {
+            "name": "Moniteau County",
+            "taxRate": 8.725
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 8.225
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 8.475
+        },
+        {
+            "name": "Morgan County",
+            "taxRate": 8.225
+        },
+        {
+            "name": "New Madrid County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Newton County",
+            "taxRate": 9.975
+        },
+        {
+            "name": "Nodaway County",
+            "taxRate": 10.1
+        },
+        {
+            "name": "Oregon County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Osage County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Ozark County",
+            "taxRate": 8.225
+        },
+        {
+            "name": "Pemiscot County",
+            "taxRate": 9.975
+        },
+        {
+            "name": "Perry County",
+            "taxRate": 9.475
+        },
+        {
+            "name": "Pettis County",
+            "taxRate": 9.725
+        },
+        {
+            "name": "Phelps County",
+            "taxRate": 8.6
+        },
+        {
+            "name": "Pike County",
+            "taxRate": 9.5375
+        },
+        {
+            "name": "Platte County",
+            "taxRate": 9.975
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 8.85
+        },
+        {
+            "name": "Pulaski County",
+            "taxRate": 9.725
+        },
+        {
+            "name": "Putnam County",
+            "taxRate": 9.1
+        },
+        {
+            "name": "Ralls County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Randolph County",
+            "taxRate": 9.475
+        },
+        {
+            "name": "Ray County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Reynolds County",
+            "taxRate": 8.475
+        },
+        {
+            "name": "Ripley County",
+            "taxRate": 8.225
+        },
+        {
+            "name": "Saline County",
+            "taxRate": 8.725
+        },
+        {
+            "name": "Schuyler County",
+            "taxRate": 8.725
+        },
+        {
+            "name": "Scotland County",
+            "taxRate": 7.475
+        },
+        {
+            "name": "Scott County",
+            "taxRate": 10.975
+        },
+        {
+            "name": "Shannon County",
+            "taxRate": 8.725
+        },
+        {
+            "name": "Shelby County",
+            "taxRate": 9.475
+        },
+        {
+            "name": "St Charles County",
+            "taxRate": 10.45
+        },
+        {
+            "name": "St Clair County",
+            "taxRate": 7.6
+        },
+        {
+            "name": "St Francois County",
+            "taxRate": 9.85
+        },
+        {
+            "name": "St Louis County",
+            "taxRate": 12.238
+        },
+        {
+            "name": "Ste Genevieve County",
+            "taxRate": 9.6
+        },
+        {
+            "name": "Stoddard County",
+            "taxRate": 8.413
+        },
+        {
+            "name": "Stone County",
+            "taxRate": 9.975
+        },
+        {
+            "name": "Sullivan County",
+            "taxRate": 8.475
+        },
+        {
+            "name": "Taney County",
+            "taxRate": 10.475
+        },
+        {
+            "name": "Texas County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Vernon County",
+            "taxRate": 8.725
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 10.475
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 8.975
+        },
+        {
+            "name": "Webster County",
+            "taxRate": 8.808
+        },
+        {
+            "name": "Worth County",
+            "taxRate": 9.1
+        },
+        {
+            "name": "Wright County",
+            "taxRate": 9.475
+        }
+    ]
+}

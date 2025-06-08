@@ -1,0 +1,353 @@
+{
+    "state": "Minnesota",
+    "counties": [
+        {
+            "name": "Aitkin County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Anoka County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Becker County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Beltrami County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Benton County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Big Stone County",
+            "taxRate": 6.875
+        },
+        {
+            "name": "Blue Earth County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Brown County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Carlton County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Carver County",
+            "taxRate": 9.025
+        },
+        {
+            "name": "Cass County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Chippewa County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Chisago County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Clearwater County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Cook County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Cottonwood County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Crow Wing County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Dakota County",
+            "taxRate": 8.625
+        },
+        {
+            "name": "Dodge County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Douglas County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Faribault County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Fillmore County",
+            "taxRate": 7.625
+        },
+        {
+            "name": "Freeborn County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Goodhue County",
+            "taxRate": 8.125
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Hennepin County",
+            "taxRate": 9.875
+        },
+        {
+            "name": "Houston County",
+            "taxRate": 7.625
+        },
+        {
+            "name": "Hubbard County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Isanti County",
+            "taxRate": 8.125
+        },
+        {
+            "name": "Itasca County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Kanabec County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Kandiyohi County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Kittson County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Koochiching County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Lac Qui Parle County",
+            "taxRate": 6.875
+        },
+        {
+            "name": "Lake County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Lake Of The Woods County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Le Sueur County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 6.875
+        },
+        {
+            "name": "Lyon County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Mahnomen County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Marshall County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Martin County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Mcleod County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Meeker County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Mille Lacs County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Morrison County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Mower County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Murray County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Nicollet County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Nobles County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Norman County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Olmsted County",
+            "taxRate": 8.125
+        },
+        {
+            "name": "Otter Tail County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Pennington County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Pine County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Pipestone County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Pope County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Ramsey County",
+            "taxRate": 9.875
+        },
+        {
+            "name": "Red Lake County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Redwood County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Renville County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Rice County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Rock County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Roseau County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Scott County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Sherburne County",
+            "taxRate": 8.125
+        },
+        {
+            "name": "Sibley County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "St Louis County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Stearns County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Steele County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Stevens County",
+            "taxRate": 6.875
+        },
+        {
+            "name": "Swift County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Todd County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Traverse County",
+            "taxRate": 6.875
+        },
+        {
+            "name": "Wabasha County",
+            "taxRate": 7.625
+        },
+        {
+            "name": "Wadena County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Waseca County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Watonwan County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Wilkin County",
+            "taxRate": 7.375
+        },
+        {
+            "name": "Winona County",
+            "taxRate": 7.625
+        },
+        {
+            "name": "Wright County",
+            "taxRate": 8.775
+        },
+        {
+            "name": "Yellow Medicine County",
+            "taxRate": 7.375
+        }
+    ]
+}

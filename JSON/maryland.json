@@ -1,0 +1,105 @@
+{
+    "state": "Maryland",
+    "counties": [
+        {
+            "name": "Allegany County",
+            "taxRate": 6
+        },
+        {
+            "name": "Anne Arundel County",
+            "taxRate": 6
+        },
+        {
+            "name": "Baltimore County",
+            "taxRate": 6
+        },
+        {
+            "name": "Calvert County",
+            "taxRate": 6
+        },
+        {
+            "name": "Caroline County",
+            "taxRate": 6
+        },
+        {
+            "name": "Carroll County",
+            "taxRate": 6
+        },
+        {
+            "name": "Cecil County",
+            "taxRate": 6
+        },
+        {
+            "name": "Charles County",
+            "taxRate": 6
+        },
+        {
+            "name": "Dorchester County",
+            "taxRate": 6
+        },
+        {
+            "name": "Frederick County",
+            "taxRate": 6
+        },
+        {
+            "name": "Garrett County",
+            "taxRate": 6
+        },
+        {
+            "name": "Harford County",
+            "taxRate": 6
+        },
+        {
+            "name": "Howard County",
+            "taxRate": 6
+        },
+        {
+            "name": "Kent County",
+            "taxRate": 6
+        },
+        {
+            "name": "Mineral County",
+            "taxRate": 6
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 6
+        },
+        {
+            "name": "Prince George's County",
+            "taxRate": 6
+        },
+        {
+            "name": "Queen Anne's County",
+            "taxRate": 6
+        },
+        {
+            "name": "Somerset County",
+            "taxRate": 6
+        },
+        {
+            "name": "St Mary's County",
+            "taxRate": 6
+        },
+        {
+            "name": "Sussex County",
+            "taxRate": 6
+        },
+        {
+            "name": "Talbot County",
+            "taxRate": 6
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 6
+        },
+        {
+            "name": "Wicomico County",
+            "taxRate": 6
+        },
+        {
+            "name": "Worcester County",
+            "taxRate": 6
+        }
+    ]
+}

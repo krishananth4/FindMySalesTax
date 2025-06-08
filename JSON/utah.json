@@ -1,0 +1,125 @@
+{
+    "state": "Utah",
+    "counties": [
+        {
+            "name": "Beaver County",
+            "taxRate": 7.35
+        },
+        {
+            "name": "Box Elder County",
+            "taxRate": 7.65
+        },
+        {
+            "name": "Cache County",
+            "taxRate": 7.30
+        },
+        {
+            "name": "Carbon County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Cassia County",
+            "taxRate": 6.65
+        },
+        {
+            "name": "Daggett County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Davis County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Duchesne County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Emery County",
+            "taxRate": 9.50
+        },
+        {
+            "name": "Garfield County",
+            "taxRate": 8.55
+        },
+        {
+            "name": "Grand County",
+            "taxRate": 8.85
+        },
+        {
+            "name": "Iron County",
+            "taxRate": 8.65
+        },
+        {
+            "name": "Juab County",
+            "taxRate": 7.05
+        },
+        {
+            "name": "Kane County",
+            "taxRate": 8.45
+        },
+        {
+            "name": "Millard County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Morgan County",
+            "taxRate": 6.95
+        },
+        {
+            "name": "Piute County",
+            "taxRate": 6.35
+        },
+        {
+            "name": "Rich County",
+            "taxRate": 7.95
+        },
+        {
+            "name": "Salt Lake County",
+            "taxRate": 8.85
+        },
+        {
+            "name": "San Juan County",
+            "taxRate": 7.45
+        },
+        {
+            "name": "Sanpete County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Sevier County",
+            "taxRate": 7.05
+        },
+        {
+            "name": "Summit County",
+            "taxRate": 9.15
+        },
+        {
+            "name": "Tooele County",
+            "taxRate": 7.00
+        },
+        {
+            "name": "Uintah County",
+            "taxRate": 6.95
+        },
+        {
+            "name": "Utah County",
+            "taxRate": 8.95
+        },
+        {
+            "name": "Wasatch County",
+            "taxRate": 8.65
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 8.05
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 6.65
+        },
+        {
+            "name": "Weber County",
+            "taxRate": 8.25
+        }
+    ]
+}

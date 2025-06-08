@@ -1,0 +1,101 @@
+{
+    "state": "Wyoming",
+    "counties": [
+        {
+            "name": "Albany County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Big Horn County",
+            "taxRate": 5.0
+        },
+        {
+            "name": "Butte County",
+            "taxRate": 5.0
+        },
+        {
+            "name": "Campbell County",
+            "taxRate": 5.0
+        },
+        {
+            "name": "Carbon County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Converse County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Crook County",
+            "taxRate": 5.0
+        },
+        {
+            "name": "Fremont County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Goshen County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Hot Springs County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Johnson County",
+            "taxRate": 5.0
+        },
+        {
+            "name": "Laramie County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 5.0
+        },
+        {
+            "name": "Natrona County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Niobrara County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Park County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Platte County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Sheridan County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Sublette County",
+            "taxRate": 4.0
+        },
+        {
+            "name": "Sweetwater County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Teton County",
+            "taxRate": 9.0
+        },
+        {
+            "name": "Uinta County",
+            "taxRate": 5.0
+        },
+        {
+            "name": "Washakie County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Weston County",
+            "taxRate": 6.0
+        }
+    ]
+}

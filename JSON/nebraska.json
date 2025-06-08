@@ -1,0 +1,389 @@
+{
+    "state": "Nebraska",
+    "counties": [
+        {
+            "name": "Adams County",
+            "taxRate": 7
+        },
+        {
+            "name": "Antelope County",
+            "taxRate": 7
+        },
+        {
+            "name": "Arthur County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Banner County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Blaine County",
+            "taxRate": 6
+        },
+        {
+            "name": "Boone County",
+            "taxRate": 7
+        },
+        {
+            "name": "Box Butte County",
+            "taxRate": 7
+        },
+        {
+            "name": "Boyd County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Brown County",
+            "taxRate": 7
+        },
+        {
+            "name": "Buffalo County",
+            "taxRate": 7
+        },
+        {
+            "name": "Burt County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Butler County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Cass County",
+            "taxRate": 7
+        },
+        {
+            "name": "Cedar County",
+            "taxRate": 7
+        },
+        {
+            "name": "Chase County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Cherry County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Cheyenne County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 7
+        },
+        {
+            "name": "Colfax County",
+            "taxRate": 7
+        },
+        {
+            "name": "Cuming County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Custer County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Dakota County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Dawes County",
+            "taxRate": 7
+        },
+        {
+            "name": "Dawson County",
+            "taxRate": 7
+        },
+        {
+            "name": "Deuel County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Dixon County",
+            "taxRate": 7
+        },
+        {
+            "name": "Dodge County",
+            "taxRate": 7
+        },
+        {
+            "name": "Douglas County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Dundy County",
+            "taxRate": 7
+        },
+        {
+            "name": "Fillmore County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 7
+        },
+        {
+            "name": "Fremont County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Frontier County",
+            "taxRate": 7
+        },
+        {
+            "name": "Furnas County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Gage County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Garden County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Garfield County",
+            "taxRate": 7
+        },
+        {
+            "name": "Gosper County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Greeley County",
+            "taxRate": 7
+        },
+        {
+            "name": "Hall County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Hamilton County",
+            "taxRate": 7
+        },
+        {
+            "name": "Harlan County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Harrison County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Hayes County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Hitchcock County",
+            "taxRate": 7
+        },
+        {
+            "name": "Holt County",
+            "taxRate": 7
+        },
+        {
+            "name": "Hooker County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Howard County",
+            "taxRate": 7
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Johnson County",
+            "taxRate": 7
+        },
+        {
+            "name": "Kearney County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Keith County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Keya Paha County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Kimball County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Knox County",
+            "taxRate": 7
+        },
+        {
+            "name": "Lancaster County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Logan County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Loup County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Mcpherson County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Merrick County",
+            "taxRate": 7
+        },
+        {
+            "name": "Morrill County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Nance County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Nemaha County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Nuckolls County",
+            "taxRate": 7
+        },
+        {
+            "name": "Otoe County",
+            "taxRate": 7
+        },
+        {
+            "name": "Pawnee County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Perkins County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Phelps County",
+            "taxRate": 7
+        },
+        {
+            "name": "Pierce County",
+            "taxRate": 7
+        },
+        {
+            "name": "Platte County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 7
+        },
+        {
+            "name": "Red Willow County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Richardson County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Rock County",
+            "taxRate": 7
+        },
+        {
+            "name": "Saline County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Sarpy County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Saunders County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Scotts Bluff County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Sedgwick County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Seward County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Sheridan County",
+            "taxRate": 7
+        },
+        {
+            "name": "Sherman County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Sioux County",
+            "taxRate": 7
+        },
+        {
+            "name": "Stanton County",
+            "taxRate": 7
+        },
+        {
+            "name": "Thayer County",
+            "taxRate": 7
+        },
+        {
+            "name": "Thomas County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Thurston County",
+            "taxRate": 7
+        },
+        {
+            "name": "Valley County",
+            "taxRate": 7
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 7
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 7
+        },
+        {
+            "name": "Webster County",
+            "taxRate": 7
+        },
+        {
+            "name": "Wheeler County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "York County",
+            "taxRate": 7.5
+        }
+    ]
+}

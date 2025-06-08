@@ -1,0 +1,169 @@
+{
+    "state": "Washington",
+    "counties": [
+        {
+            "name": "Adams County",
+            "taxRate": 8.2
+        },
+        {
+            "name": "Asotin County",
+            "taxRate": 8.4
+        },
+        {
+            "name": "Benton County",
+            "taxRate": 8.8
+        },
+        {
+            "name": "Bonner County",
+            "taxRate": 7.7
+        },
+        {
+            "name": "Chelan County",
+            "taxRate": 8.8
+        },
+        {
+            "name": "Clallam County",
+            "taxRate": 9.2
+        },
+        {
+            "name": "Clark County",
+            "taxRate": 8.8
+        },
+        {
+            "name": "Columbia County",
+            "taxRate": 8.4
+        },
+        {
+            "name": "Cowlitz County",
+            "taxRate": 8.2
+        },
+        {
+            "name": "Douglas County",
+            "taxRate": 8.8
+        },
+        {
+            "name": "Ferry County",
+            "taxRate": 8.4
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 8.9
+        },
+        {
+            "name": "Garfield County",
+            "taxRate": 8.2
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Grays Harbor County",
+            "taxRate": 9.1
+        },
+        {
+            "name": "Island County",
+            "taxRate": 9.0
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 9.4
+        },
+        {
+            "name": "King County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Kitsap County",
+            "taxRate": 9.3
+        },
+        {
+            "name": "Kittitas County",
+            "taxRate": 8.8
+        },
+        {
+            "name": "Klickitat County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Kootenai County",
+            "taxRate": 8.1
+        },
+        {
+            "name": "Lewis County",
+            "taxRate": 8.4
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 8.2
+        },
+        {
+            "name": "Mason County",
+            "taxRate": 9.2
+        },
+        {
+            "name": "Okanogan County",
+            "taxRate": 8.7
+        },
+        {
+            "name": "Pacific County",
+            "taxRate": 8.9
+        },
+        {
+            "name": "Pend Oreille County",
+            "taxRate": 8.1
+        },
+        {
+            "name": "Pierce County",
+            "taxRate": 10.3
+        },
+        {
+            "name": "San Juan County",
+            "taxRate": 8.8
+        },
+        {
+            "name": "Skagit County",
+            "taxRate": 8.8
+        },
+        {
+            "name": "Skamania County",
+            "taxRate": 7.7
+        },
+        {
+            "name": "Snohomish County",
+            "taxRate": 10.6
+        },
+        {
+            "name": "Spokane County",
+            "taxRate": 9.2
+        },
+        {
+            "name": "Stevens County",
+            "taxRate": 9.1
+        },
+        {
+            "name": "Thurston County",
+            "taxRate": 9.8
+        },
+        {
+            "name": "Wahkiakum County",
+            "taxRate": 7.8
+        },
+        {
+            "name": "Walla Walla County",
+            "taxRate": 8.9
+        },
+        {
+            "name": "Whatcom County",
+            "taxRate": 9.1
+        },
+        {
+            "name": "Whitman County",
+            "taxRate": 8.1
+        },
+        {
+            "name": "Yakima County",
+            "taxRate": 8.7
+        }
+    ]
+}

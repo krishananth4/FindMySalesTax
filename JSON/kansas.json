@@ -1,0 +1,425 @@
+{
+    "state": "Kansas",
+    "counties": [
+        {
+            "name": "Allen County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Anderson County",
+            "taxRate": 10
+        },
+        {
+            "name": "Atchison County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Barber County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Barton County",
+            "taxRate": 10.7
+        },
+        {
+            "name": "Bourbon County",
+            "taxRate": 10.65
+        },
+        {
+            "name": "Brown County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Butler County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Chase County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Chautauqua County",
+            "taxRate": 9
+        },
+        {
+            "name": "Cherokee County",
+            "taxRate": 10
+        },
+        {
+            "name": "Cheyenne County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Clark County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Cloud County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Coffey County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Comanche County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Cowley County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Crawford County",
+            "taxRate": 10
+        },
+        {
+            "name": "Decatur County",
+            "taxRate": 9
+        },
+        {
+            "name": "Dickinson County",
+            "taxRate": 11
+        },
+        {
+            "name": "Doniphan County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Douglas County",
+            "taxRate": 10.85
+        },
+        {
+            "name": "Edwards County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Elk County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Ellis County",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Ellsworth County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Finney County",
+            "taxRate": 9.95
+        },
+        {
+            "name": "Ford County",
+            "taxRate": 10
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Geary County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Gove County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Graham County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Gray County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Greeley County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Greenwood County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Hamilton County",
+            "taxRate": 9
+        },
+        {
+            "name": "Harper County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Harvey County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Haskell County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hodgeman County",
+            "taxRate": 9
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 9.4
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Jewell County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Johnson County",
+            "taxRate": 11.475
+        },
+        {
+            "name": "Kearny County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Kingman County",
+            "taxRate": 11
+        },
+        {
+            "name": "Kiowa County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Labette County",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Lane County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Leavenworth County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Linn County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Logan County",
+            "taxRate": 9
+        },
+        {
+            "name": "Lyon County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Marshall County",
+            "taxRate": 9
+        },
+        {
+            "name": "Mcpherson County",
+            "taxRate": 11
+        },
+        {
+            "name": "Meade County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Miami County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Mitchell County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Morris County",
+            "taxRate": 9.2
+        },
+        {
+            "name": "Morton County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Nemaha County",
+            "taxRate": 9
+        },
+        {
+            "name": "Neosho County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Ness County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Norton County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Osage County",
+            "taxRate": 10
+        },
+        {
+            "name": "Osborne County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Ottawa County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Pawnee County",
+            "taxRate": 9
+        },
+        {
+            "name": "Phillips County",
+            "taxRate": 9
+        },
+        {
+            "name": "Pottawatomie County",
+            "taxRate": 10
+        },
+        {
+            "name": "Pratt County",
+            "taxRate": 9
+        },
+        {
+            "name": "Rawlins County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Reno County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Republic County",
+            "taxRate": 9
+        },
+        {
+            "name": "Rice County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Riley County",
+            "taxRate": 9.9
+        },
+        {
+            "name": "Rooks County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Rush County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Russell County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Saline County",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Scott County",
+            "taxRate": 9
+        },
+        {
+            "name": "Sedgwick County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Seward County",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Shawnee County",
+            "taxRate": 11.35
+        },
+        {
+            "name": "Sheridan County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Sherman County",
+            "taxRate": 11
+        },
+        {
+            "name": "Smith County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Stafford County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Stanton County",
+            "taxRate": 8
+        },
+        {
+            "name": "Stevens County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Sumner County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Thomas County",
+            "taxRate": 9
+        },
+        {
+            "name": "Trego County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Wabaunsee County",
+            "taxRate": 10
+        },
+        {
+            "name": "Wallace County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Wichita County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Wilson County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Woodson County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Wyandotte County",
+            "taxRate": 11.125
+        }
+    ]
+}

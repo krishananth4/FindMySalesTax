@@ -1,0 +1,189 @@
+{
+    "state": "South Carolina",
+    "counties": [
+        {
+            "name": "Abbeville County",
+            "taxRate": 8
+        },
+        {
+            "name": "Aiken County",
+            "taxRate": 8
+        },
+        {
+            "name": "Allendale County",
+            "taxRate": 8
+        },
+        {
+            "name": "Anderson County",
+            "taxRate": 8
+        },
+        {
+            "name": "Bamberg County",
+            "taxRate": 8
+        },
+        {
+            "name": "Barnwell County",
+            "taxRate": 8
+        },
+        {
+            "name": "Beaufort County",
+            "taxRate": 9
+        },
+        {
+            "name": "Berkeley County",
+            "taxRate": 9
+        },
+        {
+            "name": "Calhoun County",
+            "taxRate": 8
+        },
+        {
+            "name": "Charleston County",
+            "taxRate": 9
+        },
+        {
+            "name": "Cherokee County",
+            "taxRate": 8
+        },
+        {
+            "name": "Chester County",
+            "taxRate": 8
+        },
+        {
+            "name": "Chesterfield County",
+            "taxRate": 8
+        },
+        {
+            "name": "Clarendon County",
+            "taxRate": 8
+        },
+        {
+            "name": "Colleton County",
+            "taxRate": 8
+        },
+        {
+            "name": "Darlington County",
+            "taxRate": 8
+        },
+        {
+            "name": "Dillon County",
+            "taxRate": 8
+        },
+        {
+            "name": "Dorchester County",
+            "taxRate": 9
+        },
+        {
+            "name": "Edgefield County",
+            "taxRate": 8
+        },
+        {
+            "name": "Fairfield County",
+            "taxRate": 8
+        },
+        {
+            "name": "Florence County",
+            "taxRate": 8
+        },
+        {
+            "name": "Georgetown County",
+            "taxRate": 7
+        },
+        {
+            "name": "Greenville County",
+            "taxRate": 8
+        },
+        {
+            "name": "Greenwood County",
+            "taxRate": 8
+        },
+        {
+            "name": "Hampton County",
+            "taxRate": 9
+        },
+        {
+            "name": "Horry County",
+            "taxRate": 9
+        },
+        {
+            "name": "Jasper County",
+            "taxRate": 9
+        },
+        {
+            "name": "Kershaw County",
+            "taxRate": 8
+        },
+        {
+            "name": "Lancaster County",
+            "taxRate": 8
+        },
+        {
+            "name": "Laurens County",
+            "taxRate": 8
+        },
+        {
+            "name": "Lee County",
+            "taxRate": 8
+        },
+        {
+            "name": "Lexington County",
+            "taxRate": 8
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 8
+        },
+        {
+            "name": "Marlboro County",
+            "taxRate": 8
+        },
+        {
+            "name": "Mccormick County",
+            "taxRate": 8
+        },
+        {
+            "name": "Newberry County",
+            "taxRate": 8
+        },
+        {
+            "name": "Oconee County",
+            "taxRate": 7
+        },
+        {
+            "name": "Orangeburg County",
+            "taxRate": 9
+        },
+        {
+            "name": "Pickens County",
+            "taxRate": 7
+        },
+        {
+            "name": "Richland County",
+            "taxRate": 8
+        },
+        {
+            "name": "Saluda County",
+            "taxRate": 8
+        },
+        {
+            "name": "Spartanburg County",
+            "taxRate": 8
+        },
+        {
+            "name": "Sumter County",
+            "taxRate": 8
+        },
+        {
+            "name": "Union County",
+            "taxRate": 8
+        },
+        {
+            "name": "Williamsburg County",
+            "taxRate": 8
+        },
+        {
+            "name": "York County",
+            "taxRate": 8
+        }
+    ]
+}

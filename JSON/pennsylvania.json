@@ -1,0 +1,281 @@
+{
+    "state": "Pennsylvania",
+    "counties": [
+        {
+            "name": "Adams County",
+            "taxRate": 6
+        },
+        {
+            "name": "Allegheny County",
+            "taxRate": 7
+        },
+        {
+            "name": "Armstrong County",
+            "taxRate": 7
+        },
+        {
+            "name": "Beaver County",
+            "taxRate": 7
+        },
+        {
+            "name": "Bedford County",
+            "taxRate": 6
+        },
+        {
+            "name": "Berks County",
+            "taxRate": 6
+        },
+        {
+            "name": "Blair County",
+            "taxRate": 6
+        },
+        {
+            "name": "Bradford County",
+            "taxRate": 6
+        },
+        {
+            "name": "Bucks County",
+            "taxRate": 8
+        },
+        {
+            "name": "Butler County",
+            "taxRate": 7
+        },
+        {
+            "name": "Cambria County",
+            "taxRate": 6
+        },
+        {
+            "name": "Cameron County",
+            "taxRate": 6
+        },
+        {
+            "name": "Carbon County",
+            "taxRate": 6
+        },
+        {
+            "name": "Centre County",
+            "taxRate": 6
+        },
+        {
+            "name": "Chester County",
+            "taxRate": 6
+        },
+        {
+            "name": "Clarion County",
+            "taxRate": 6
+        },
+        {
+            "name": "Clearfield County",
+            "taxRate": 6
+        },
+        {
+            "name": "Clinton County",
+            "taxRate": 6
+        },
+        {
+            "name": "Columbia County",
+            "taxRate": 6
+        },
+        {
+            "name": "Crawford County",
+            "taxRate": 6
+        },
+        {
+            "name": "Cumberland County",
+            "taxRate": 6
+        },
+        {
+            "name": "Dauphin County",
+            "taxRate": 6
+        },
+        {
+            "name": "Delaware County",
+            "taxRate": 8
+        },
+        {
+            "name": "Elk County",
+            "taxRate": 6
+        },
+        {
+            "name": "Erie County",
+            "taxRate": 6
+        },
+        {
+            "name": "Fayette County",
+            "taxRate": 6
+        },
+        {
+            "name": "Forest County",
+            "taxRate": 6
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 6
+        },
+        {
+            "name": "Fulton County",
+            "taxRate": 6
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 6
+        },
+        {
+            "name": "Huntingdon County",
+            "taxRate": 6
+        },
+        {
+            "name": "Indiana County",
+            "taxRate": 6
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 6
+        },
+        {
+            "name": "Juniata County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lackawanna County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lancaster County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lawrence County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lebanon County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lehigh County",
+            "taxRate": 6
+        },
+        {
+            "name": "Luzerne County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lycoming County",
+            "taxRate": 6
+        },
+        {
+            "name": "Mahoning County",
+            "taxRate": 6
+        },
+        {
+            "name": "Mckean County",
+            "taxRate": 6
+        },
+        {
+            "name": "Mercer County",
+            "taxRate": 6
+        },
+        {
+            "name": "Mifflin County",
+            "taxRate": 6
+        },
+        {
+            "name": "Monongalia County",
+            "taxRate": 6
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 6
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 8
+        },
+        {
+            "name": "Montour County",
+            "taxRate": 6
+        },
+        {
+            "name": "Northampton County",
+            "taxRate": 6
+        },
+        {
+            "name": "Northumberland County",
+            "taxRate": 6
+        },
+        {
+            "name": "Perry County",
+            "taxRate": 6
+        },
+        {
+            "name": "Philadelphia County",
+            "taxRate": 8
+        },
+        {
+            "name": "Pike County",
+            "taxRate": 6
+        },
+        {
+            "name": "Potter County",
+            "taxRate": 6
+        },
+        {
+            "name": "Schuylkill County",
+            "taxRate": 6
+        },
+        {
+            "name": "Snyder County",
+            "taxRate": 6
+        },
+        {
+            "name": "Somerset County",
+            "taxRate": 6
+        },
+        {
+            "name": "Sullivan County",
+            "taxRate": 6
+        },
+        {
+            "name": "Susquehanna County",
+            "taxRate": 6
+        },
+        {
+            "name": "Tioga County",
+            "taxRate": 6
+        },
+        {
+            "name": "Union County",
+            "taxRate": 6
+        },
+        {
+            "name": "Venango County",
+            "taxRate": 6
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 6
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 7
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 6
+        },
+        {
+            "name": "Westmoreland County",
+            "taxRate": 7
+        },
+        {
+            "name": "Wyoming County",
+            "taxRate": 6
+        },
+        {
+            "name": "York County",
+            "taxRate": 6
+        }
+    ]
+}

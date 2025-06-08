@@ -1,0 +1,333 @@
+{
+    "state": "Mississippi",
+    "counties": [
+        {
+            "name": "Adams County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Alcorn County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Amite County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Attala County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Benton County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Bolivar County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Calhoun County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Carroll County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Chickasaw County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Choctaw County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Claiborne County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Clarke County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Coahoma County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Copiah County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Covington County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Desoto County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Forrest County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "George County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Grenada County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hancock County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Harrison County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hinds County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Holmes County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Humphreys County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Issaquena County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Itawamba County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jasper County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jefferson Davis County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jones County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Kemper County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lafayette County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lamar County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lauderdale County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lawrence County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Leake County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lee County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Leflore County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lowndes County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Marshall County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Neshoba County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Newton County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Noxubee County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Oktibbeha County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Panola County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Pearl River County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Perry County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Pike County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Pontotoc County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Prentiss County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Quitman County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Rankin County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Scott County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Sharkey County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Simpson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Smith County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Stone County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Sunflower County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Tallahatchie County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Tate County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Tippah County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Tishomingo County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Tunica County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Union County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Walthall County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Webster County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Wilkinson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Winston County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Yalobusha County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Yazoo County",
+            "taxRate": 7.0
+        }
+    ]
+}

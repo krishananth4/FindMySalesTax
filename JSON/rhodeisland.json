@@ -1,0 +1,25 @@
+{
+    "state": "Rhode Island",
+    "counties": [
+        {
+            "name": "Bristol County",
+            "taxRate": 7
+        },
+        {
+            "name": "Kent County",
+            "taxRate": 7
+        },
+        {
+            "name": "Newport County",
+            "taxRate": 7
+        },
+        {
+            "name": "Providence County",
+            "taxRate": 7
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 7
+        }
+    ]
+}

@@ -1,0 +1,277 @@
+{
+    "state": "Illinois",
+    "counties": [
+        {
+            "name": "Adams County",
+            "taxRate": 9
+        },
+        {
+            "name": "Alexander County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Bond County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Boone County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Brown County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Bureau County",
+            "taxRate": 8
+        },
+        {
+            "name": "Calhoun County",
+            "taxRate": 9
+        },
+        {
+            "name": "Carroll County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Cass County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Champaign County",
+            "taxRate": 9
+        },
+        {
+            "name": "Christian County",
+            "taxRate": 9
+        },
+        {
+            "name": "Clark County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Clinton County",
+            "taxRate": 8.85
+        },
+        {
+            "name": "Coles County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Cook County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Crawford County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Cumberland County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "De Witt County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Dekalb County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Douglas County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Dupage County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Edgar County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Edwards County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Effingham County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Fayette County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Ford County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Fulton County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Gallatin County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 8
+        },
+        {
+            "name": "Grundy County",
+            "taxRate": 9
+        },
+        {
+            "name": "Hamilton County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hancock County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Hardin County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Henderson County",
+            "taxRate": 8
+        },
+        {
+            "name": "Henry County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Iroquois County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Jasper County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Jersey County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Jo Daviess County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Johnson County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Kane County",
+            "taxRate": 11
+        },
+        {
+            "name": "Kankakee County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Kendall County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Knox County",
+            "taxRate": 10
+        },
+        {
+            "name": "La Salle County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Lake County",
+            "taxRate": 10
+        },
+        {
+            "name": "Lawrence County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Lee County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Livingston County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Logan County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Macon County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Macoupin County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 9.85
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Marshall County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Mason County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Massac County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Mcdonough County",
+            "taxRate": 9
+        },
+        {
+            "name": "Mchenry County",
+            "taxRate": 9
+        },
+        {
+            "name": "Mclean County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Menard County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Mercer County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 9.25
+        }
+    ]
+}

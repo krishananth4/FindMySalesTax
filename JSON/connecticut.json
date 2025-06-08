@@ -1,0 +1,37 @@
+{
+    "state": "Connecticut",
+    "counties": [
+        {
+            "name": "Fairfield County",
+            "taxRate": 6.35
+        },
+        {
+            "name": "Hartford County",
+            "taxRate": 6.35
+        },
+        {
+            "name": "Litchfield County",
+            "taxRate": 6.35
+        },
+        {
+            "name": "Middlesex County",
+            "taxRate": 6.35
+        },
+        {
+            "name": "New Haven County",
+            "taxRate": 6.35
+        },
+        {
+            "name": "New London County",
+            "taxRate": 6.35
+        },
+        {
+            "name": "Tolland County",
+            "taxRate": 6.35
+        },
+        {
+            "name": "Windham County",
+            "taxRate": 6.35
+        }
+    ]
+}

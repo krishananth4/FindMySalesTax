@@ -1,0 +1,181 @@
+{
+    "state": "Idaho",
+    "counties": [
+        {
+            "name": "Ada County",
+            "taxRate": 6
+        },
+        {
+            "name": "Adams County",
+            "taxRate": 6
+        },
+        {
+            "name": "Bannock County",
+            "taxRate": 8
+        },
+        {
+            "name": "Bear Lake County",
+            "taxRate": 6
+        },
+        {
+            "name": "Benewah County",
+            "taxRate": 6
+        },
+        {
+            "name": "Bingham County",
+            "taxRate": 6
+        },
+        {
+            "name": "Blaine County",
+            "taxRate": 9
+        },
+        {
+            "name": "Boise County",
+            "taxRate": 6
+        },
+        {
+            "name": "Bonner County",
+            "taxRate": 6
+        },
+        {
+            "name": "Bonneville County",
+            "taxRate": 7
+        },
+        {
+            "name": "Boundary County",
+            "taxRate": 7
+        },
+        {
+            "name": "Butte County",
+            "taxRate": 6
+        },
+        {
+            "name": "Camas County",
+            "taxRate": 6
+        },
+        {
+            "name": "Canyon County",
+            "taxRate": 6
+        },
+        {
+            "name": "Caribou County",
+            "taxRate": 6
+        },
+        {
+            "name": "Cassia County",
+            "taxRate": 6
+        },
+        {
+            "name": "Clark County",
+            "taxRate": 6
+        },
+        {
+            "name": "Clearwater County",
+            "taxRate": 6
+        },
+        {
+            "name": "Custer County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Elmore County",
+            "taxRate": 6
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 6
+        },
+        {
+            "name": "Fremont County",
+            "taxRate": 6
+        },
+        {
+            "name": "Gem County",
+            "taxRate": 6
+        },
+        {
+            "name": "Gooding County",
+            "taxRate": 6
+        },
+        {
+            "name": "Idaho County",
+            "taxRate": 7
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 6
+        },
+        {
+            "name": "Jerome County",
+            "taxRate": 6
+        },
+        {
+            "name": "Kootenai County",
+            "taxRate": 7
+        },
+        {
+            "name": "Latah County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lemhi County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lewis County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 6
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 6
+        },
+        {
+            "name": "Minidoka County",
+            "taxRate": 6
+        },
+        {
+            "name": "Nez Perce County",
+            "taxRate": 6
+        },
+        {
+            "name": "Oneida County",
+            "taxRate": 6
+        },
+        {
+            "name": "Owyhee County",
+            "taxRate": 6
+        },
+        {
+            "name": "Payette County",
+            "taxRate": 6
+        },
+        {
+            "name": "Power County",
+            "taxRate": 6
+        },
+        {
+            "name": "Shoshone County",
+            "taxRate": 6
+        },
+        {
+            "name": "Teton County",
+            "taxRate": 7
+        },
+        {
+            "name": "Twin Falls County",
+            "taxRate": 6
+        },
+        {
+            "name": "Valley County",
+            "taxRate": 7
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 6
+        }
+    ]
+}

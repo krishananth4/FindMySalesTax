@@ -1,0 +1,289 @@
+{
+    "state": "Georgia",
+    "counties": [
+        {
+            "name": "Appling County",
+            "taxRate": 8
+        },
+        {
+            "name": "Atkinson County",
+            "taxRate": 8
+        },
+        {
+            "name": "Bacon County",
+            "taxRate": 8
+        },
+        {
+            "name": "Baker County",
+            "taxRate": 8
+        },
+        {
+            "name": "Baldwin County",
+            "taxRate": 8
+        },
+        {
+            "name": "Banks County",
+            "taxRate": 8
+        },
+        {
+            "name": "Barrow County",
+            "taxRate": 8
+        },
+        {
+            "name": "Bartow County",
+            "taxRate": 7
+        },
+        {
+            "name": "Ben Hill County",
+            "taxRate": 8
+        },
+        {
+            "name": "Berrien County",
+            "taxRate": 8
+        },
+        {
+            "name": "Bibb County",
+            "taxRate": 8
+        },
+        {
+            "name": "Bleckley County",
+            "taxRate": 8
+        },
+        {
+            "name": "Brantley County",
+            "taxRate": 8
+        },
+        {
+            "name": "Brooks County",
+            "taxRate": 8
+        },
+        {
+            "name": "Bryan County",
+            "taxRate": 8
+        },
+        {
+            "name": "Bulloch County",
+            "taxRate": 8
+        },
+        {
+            "name": "Burke County",
+            "taxRate": 8
+        },
+        {
+            "name": "Butts County",
+            "taxRate": 8
+        },
+        {
+            "name": "Calhoun County",
+            "taxRate": 8
+        },
+        {
+            "name": "Camden County",
+            "taxRate": 7
+        },
+        {
+            "name": "Candler County",
+            "taxRate": 8
+        },
+        {
+            "name": "Carroll County",
+            "taxRate": 8
+        },
+        {
+            "name": "Catoosa County",
+            "taxRate": 8
+        },
+        {
+            "name": "Charlton County",
+            "taxRate": 8
+        },
+        {
+            "name": "Chatham County",
+            "taxRate": 8
+        },
+        {
+            "name": "Chattahoochee County",
+            "taxRate": 9
+        },
+        {
+            "name": "Chattooga County",
+            "taxRate": 8
+        },
+        {
+            "name": "Cherokee County",
+            "taxRate": 7
+        },
+        {
+            "name": "Clarke County",
+            "taxRate": 8
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 8
+        },
+        {
+            "name": "Clayton County",
+            "taxRate": 8
+        },
+        {
+            "name": "Clinch County",
+            "taxRate": 8
+        },
+        {
+            "name": "Cobb County",
+            "taxRate": 7
+        },
+        {
+            "name": "Coffee County",
+            "taxRate": 8
+        },
+        {
+            "name": "Colquitt County",
+            "taxRate": 8
+        },
+        {
+            "name": "Columbia County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Cook County",
+            "taxRate": 8
+        },
+        {
+            "name": "Coweta County",
+            "taxRate": 8
+        },
+        {
+            "name": "Crawford County",
+            "taxRate": 8
+        },
+        {
+            "name": "Crisp County",
+            "taxRate": 8
+        },
+        {
+            "name": "Dade County",
+            "taxRate": 8
+        },
+        {
+            "name": "Dawson County",
+            "taxRate": 8
+        },
+        {
+            "name": "Decatur County",
+            "taxRate": 8
+        },
+        {
+            "name": "Dekalb County",
+            "taxRate": 8.9
+        },
+        {
+            "name": "Dodge County",
+            "taxRate": 8
+        },
+        {
+            "name": "Dooly County",
+            "taxRate": 8
+        },
+        {
+            "name": "Dougherty County",
+            "taxRate": 8
+        },
+        {
+            "name": "Douglas County",
+            "taxRate": 7
+        },
+        {
+            "name": "Early County",
+            "taxRate": 8
+        },
+        {
+            "name": "Echols County",
+            "taxRate": 8
+        },
+        {
+            "name": "Effingham County",
+            "taxRate": 8
+        },
+        {
+            "name": "Elbert County",
+            "taxRate": 8
+        },
+        {
+            "name": "Emanuel County",
+            "taxRate": 8
+        },
+        {
+            "name": "Evans County",
+            "taxRate": 8
+        },
+        {
+            "name": "Fannin County",
+            "taxRate": 7
+        },
+        {
+            "name": "Fayette County",
+            "taxRate": 8
+        },
+        {
+            "name": "Floyd County",
+            "taxRate": 7
+        },
+        {
+            "name": "Forsyth County",
+            "taxRate": 7
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 8
+        },
+        {
+            "name": "Fulton County",
+            "taxRate": 9
+        },
+        {
+            "name": "Gilmer County",
+            "taxRate": 8
+        },
+        {
+            "name": "Glascock County",
+            "taxRate": 8
+        },
+        {
+            "name": "Glynn County",
+            "taxRate": 7
+        },
+        {
+            "name": "Gordon County",
+            "taxRate": 8
+        },
+        {
+            "name": "Grady County",
+            "taxRate": 8
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 8
+        },
+        {
+            "name": "Gwinnett County",
+            "taxRate": 8
+        },
+        {
+            "name": "Habersham County",
+            "taxRate": 8
+        },
+        {
+            "name": "Hall County",
+            "taxRate": 8
+        },
+        {
+            "name": "Hancock County",
+            "taxRate": 8
+        },
+        {
+            "name": "Haralson County",
+            "taxRate": 8
+        }
+    ]
+}

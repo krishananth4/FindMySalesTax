@@ -1,0 +1,317 @@
+{
+    "state": "Oklahoma",
+    "counties": [
+        {
+            "name": "Adair County",
+            "taxRate": 10.95
+        },
+        {
+            "name": "Alfalfa County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Atoka County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Beaver County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Beckham County",
+            "taxRate": 9.85
+        },
+        {
+            "name": "Blaine County",
+            "taxRate": 11.375
+        },
+        {
+            "name": "Bryan County",
+            "taxRate": 9.375
+        },
+        {
+            "name": "Caddo County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Canadian County",
+            "taxRate": 9.85
+        },
+        {
+            "name": "Carter County",
+            "taxRate": 10.375
+        },
+        {
+            "name": "Cherokee County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Choctaw County",
+            "taxRate": 10.0
+        },
+        {
+            "name": "Cimarron County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Cleveland County",
+            "taxRate": 9.995
+        },
+        {
+            "name": "Coal County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Comanche County",
+            "taxRate": 9.0
+        },
+        {
+            "name": "Cotton County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Craig County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Creek County",
+            "taxRate": 10.667
+        },
+        {
+            "name": "Custer County",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Delaware County",
+            "taxRate": 10.95
+        },
+        {
+            "name": "Dewey County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Ellis County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Garfield County",
+            "taxRate": 9.35
+        },
+        {
+            "name": "Garvin County",
+            "taxRate": 10.0
+        },
+        {
+            "name": "Grady County",
+            "taxRate": 10.0
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 10.75
+        },
+        {
+            "name": "Greer County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Harmon County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Harper County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Haskell County",
+            "taxRate": 10.0
+        },
+        {
+            "name": "Hughes County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Johnston County",
+            "taxRate": 10.0
+        },
+        {
+            "name": "Kay County",
+            "taxRate": 10.75
+        },
+        {
+            "name": "Kingfisher County",
+            "taxRate": 10.75
+        },
+        {
+            "name": "Kiowa County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Latimer County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Le Flore County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Logan County",
+            "taxRate": 9.313
+        },
+        {
+            "name": "Love County",
+            "taxRate": 10.0
+        },
+        {
+            "name": "Major County",
+            "taxRate": 10.906
+        },
+        {
+            "name": "Marshall County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Mayes County",
+            "taxRate": 10.875
+        },
+        {
+            "name": "Mcclain County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Mccurtain County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Mcintosh County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Murray County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Muskogee County",
+            "taxRate": 11.499
+        },
+        {
+            "name": "Noble County",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Nowata County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Okfuskee County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Oklahoma County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Okmulgee County",
+            "taxRate": 10.583
+        },
+        {
+            "name": "Osage County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Ottawa County",
+            "taxRate": 10.85
+        },
+        {
+            "name": "Pawnee County",
+            "taxRate": 10.6
+        },
+        {
+            "name": "Payne County",
+            "taxRate": 9.975
+        },
+        {
+            "name": "Pittsburg County",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 5.906
+        },
+        {
+            "name": "Pontotoc County",
+            "taxRate": 9.875
+        },
+        {
+            "name": "Pottawatomie County",
+            "taxRate": 10.12
+        },
+        {
+            "name": "Pushmataha County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Roger Mills County",
+            "taxRate": 9.0
+        },
+        {
+            "name": "Rogers County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Seminole County",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Sequoyah County",
+            "taxRate": 9.917
+        },
+        {
+            "name": "Stephens County",
+            "taxRate": 9.2
+        },
+        {
+            "name": "Texas County",
+            "taxRate": 9.95
+        },
+        {
+            "name": "Tillman County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Tulsa County",
+            "taxRate": 10.8
+        },
+        {
+            "name": "Wagoner County",
+            "taxRate": 9.8
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 8.9
+        },
+        {
+            "name": "Washita County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Woods County",
+            "taxRate": 10.0
+        },
+        {
+            "name": "Woodward County",
+            "taxRate": 9.4
+        }
+    ]
+}

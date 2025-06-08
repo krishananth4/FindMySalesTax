@@ -1,0 +1,305 @@
+{
+    "state": "Arkansas",
+    "counties": [
+        {
+            "name": "Arkansas County",
+            "taxRate": 11
+        },
+        {
+            "name": "Ashley County",
+            "taxRate": 11
+        },
+        {
+            "name": "Baxter County",
+            "taxRate": 9.875
+        },
+        {
+            "name": "Benton County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Boone County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Bradley County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Calhoun County",
+            "taxRate": 10.125
+        },
+        {
+            "name": "Carroll County",
+            "taxRate": 9.375
+        },
+        {
+            "name": "Chicot County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Clark County",
+            "taxRate": 10
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 10
+        },
+        {
+            "name": "Cleburne County",
+            "taxRate": 9.625
+        },
+        {
+            "name": "Cleveland County",
+            "taxRate": 10.75
+        },
+        {
+            "name": "Columbia County",
+            "taxRate": 10.375
+        },
+        {
+            "name": "Conway County",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Craighead County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Crawford County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Crittenden County",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Cross County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Dallas County",
+            "taxRate": 10
+        },
+        {
+            "name": "Desha County",
+            "taxRate": 11
+        },
+        {
+            "name": "Drew County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Faulkner County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Fulton County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Garland County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 9.375
+        },
+        {
+            "name": "Hempstead County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Hot Spring County",
+            "taxRate": 11
+        },
+        {
+            "name": "Howard County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Independence County",
+            "taxRate": 11
+        },
+        {
+            "name": "Izard County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Johnson County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Lafayette County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Lawrence County",
+            "taxRate": 11
+        },
+        {
+            "name": "Lee County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Little River County",
+            "taxRate": 11.375
+        },
+        {
+            "name": "Logan County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Lonoke County",
+            "taxRate": 11
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 11
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Miller County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Mississippi County",
+            "taxRate": 11
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Nevada County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Newton County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Ouachita County",
+            "taxRate": 11
+        },
+        {
+            "name": "Perry County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Phillips County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Pike County",
+            "taxRate": 10
+        },
+        {
+            "name": "Poinsett County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Pope County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Prairie County",
+            "taxRate": 11
+        },
+        {
+            "name": "Pulaski County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Randolph County",
+            "taxRate": 10
+        },
+        {
+            "name": "Saline County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Scott County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Searcy County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Sebastian County",
+            "taxRate": 11
+        },
+        {
+            "name": "Sevier County",
+            "taxRate": 12.625
+        },
+        {
+            "name": "Sharp County",
+            "taxRate": 10.875
+        },
+        {
+            "name": "St Francis County",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Stone County",
+            "taxRate": 10
+        },
+        {
+            "name": "Union County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Van Buren County",
+            "taxRate": 9.625
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 12.25
+        },
+        {
+            "name": "White County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Woodruff County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Yell County",
+            "taxRate": 9.625
+        }
+    ]
+}

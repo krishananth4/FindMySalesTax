@@ -1,0 +1,141 @@
+{
+    "state": "New Mexico",
+    "counties": [
+        {
+            "name": "Bernalillo County",
+            "taxRate": 8.075
+        },
+        {
+            "name": "Catron County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Chaves County",
+            "taxRate": 7.8958
+        },
+        {
+            "name": "Cibola County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Colfax County",
+            "taxRate": 8.2583
+        },
+        {
+            "name": "Curry County",
+            "taxRate": 7.9375
+        },
+        {
+            "name": "De Baca County",
+            "taxRate": 7.8125
+        },
+        {
+            "name": "Dona Ana County",
+            "taxRate": 8.3775
+        },
+        {
+            "name": "Eddy County",
+            "taxRate": 7.6458
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 8.1125
+        },
+        {
+            "name": "Guadalupe County",
+            "taxRate": 8.4875
+        },
+        {
+            "name": "Harding County",
+            "taxRate": 7.1458
+        },
+        {
+            "name": "Hidalgo County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "La Plata County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Lea County",
+            "taxRate": 7.1875
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 8.1875
+        },
+        {
+            "name": "Los Alamos County",
+            "taxRate": 7.0625
+        },
+        {
+            "name": "Luna County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Mckinley County",
+            "taxRate": 8.0625
+        },
+        {
+            "name": "Mora County",
+            "taxRate": 7.5208
+        },
+        {
+            "name": "Otero County",
+            "taxRate": 8.1875
+        },
+        {
+            "name": "Quay County",
+            "taxRate": 8.125
+        },
+        {
+            "name": "Rio Arriba County",
+            "taxRate": 8.8125
+        },
+        {
+            "name": "Roosevelt County",
+            "taxRate": 7.9375
+        },
+        {
+            "name": "San Juan County",
+            "taxRate": 8.1875
+        },
+        {
+            "name": "San Miguel County",
+            "taxRate": 8.1458
+        },
+        {
+            "name": "Sandoval County",
+            "taxRate": 8.0625
+        },
+        {
+            "name": "Santa Fe County",
+            "taxRate": 8.8125
+        },
+        {
+            "name": "Sierra County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Socorro County",
+            "taxRate": 7.5625
+        },
+        {
+            "name": "Taos County",
+            "taxRate": 9.4375
+        },
+        {
+            "name": "Torrance County",
+            "taxRate": 7.9375
+        },
+        {
+            "name": "Union County",
+            "taxRate": 7.875
+        },
+        {
+            "name": "Valencia County",
+            "taxRate": 8.425
+        }
+    ]
+}

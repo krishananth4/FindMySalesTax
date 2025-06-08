@@ -1,0 +1,69 @@
+{
+    "state": "Nevada",
+    "counties": [
+        {
+            "name": "Churchill County",
+            "taxRate": 7.6
+        },
+        {
+            "name": "Clark County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Douglas County",
+            "taxRate": 7.1
+        },
+        {
+            "name": "Elko County",
+            "taxRate": 7.1
+        },
+        {
+            "name": "Esmeralda County",
+            "taxRate": 6.85
+        },
+        {
+            "name": "Eureka County",
+            "taxRate": 6.85
+        },
+        {
+            "name": "Humboldt County",
+            "taxRate": 7.1
+        },
+        {
+            "name": "Lander County",
+            "taxRate": 7.1
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 7.1
+        },
+        {
+            "name": "Lyon County",
+            "taxRate": 7.6
+        },
+        {
+            "name": "Mineral County",
+            "taxRate": 6.85
+        },
+        {
+            "name": "Nye County",
+            "taxRate": 7.6
+        },
+        {
+            "name": "Pershing County",
+            "taxRate": 7.1
+        },
+        {
+            "name": "Storey County",
+            "taxRate": 7.6
+        },
+        {
+            "name": "Washoe County",
+            "taxRate": 8.265
+        },
+        {
+            "name": "White Pine County",
+            "taxRate": 7.725
+        }
+    ]
+}

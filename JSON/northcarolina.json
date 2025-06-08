@@ -1,0 +1,409 @@
+{
+    "state": "North Carolina",
+    "counties": [
+        {
+            "name": "Alamance County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Alexander County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Alleghany County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Anson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Ashe County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Avery County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Beaufort County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Bertie County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Bladen County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Brunswick County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Buncombe County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Burke County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Cabarrus County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Caldwell County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Camden County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Carteret County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Caswell County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Catawba County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Chatham County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Cherokee County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Chowan County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Cleveland County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Columbus County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Craven County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Cumberland County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Currituck County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Dare County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Davidson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Davie County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Duplin County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Durham County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Edgecombe County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Fannin County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Forsyth County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Gaston County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Gates County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Graham County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Granville County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Guilford County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Halifax County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Harnett County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Haywood County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Henderson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hertford County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hoke County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hyde County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Iredell County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Johnston County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Jones County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lee County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lenoir County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Macon County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Martin County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Mcdowell County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Mecklenburg County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Mitchell County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Moore County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Nash County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "New Hanover County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Northampton County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Onslow County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Orange County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Pamlico County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Pasquotank County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Pender County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Perquimans County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Person County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Pitt County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Randolph County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Richmond County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Robeson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Rockingham County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Rowan County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Rutherford County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Sampson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Scotland County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Stanly County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Stokes County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Surry County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Swain County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Transylvania County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Tyrrell County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Union County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Vance County",
+            "taxRate": 6.75
+        },
+        {
+            "name": "Wake County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Watauga County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Wilkes County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Wilson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Yadkin County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Yancey County",
+            "taxRate": 7.0
+        }
+    ]
+}

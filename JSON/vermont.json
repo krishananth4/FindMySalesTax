@@ -1,0 +1,61 @@
+{
+    "state": "Vermont",
+    "counties": [
+        {
+            "name": "Addison County",
+            "taxRate": 7.00
+        },
+        {
+            "name": "Bennington County",
+            "taxRate": 7.00
+        },
+        {
+            "name": "Caledonia County",
+            "taxRate": 6.00
+        },
+        {
+            "name": "Chittenden County",
+            "taxRate": 7.00
+        },
+        {
+            "name": "Essex County",
+            "taxRate": 6.00
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 7.00
+        },
+        {
+            "name": "Grand Isle County",
+            "taxRate": 6.00
+        },
+        {
+            "name": "Lamoille County",
+            "taxRate": 7.00
+        },
+        {
+            "name": "Orange County",
+            "taxRate": 6.00
+        },
+        {
+            "name": "Orleans County",
+            "taxRate": 6.00
+        },
+        {
+            "name": "Rutland County",
+            "taxRate": 7.00
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 7.00
+        },
+        {
+            "name": "Windham County",
+            "taxRate": 7.00
+        },
+        {
+            "name": "Windsor County",
+            "taxRate": 7.00
+        }
+    ]
+}

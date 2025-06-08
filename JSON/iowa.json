@@ -1,0 +1,401 @@
+{
+    "state": "Iowa",
+    "counties": [
+        {
+            "name": "Adair County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Adams County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Allamakee County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Appanoose County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Audubon County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Benton County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Black Hawk County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Boone County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Bremer County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Buchanan County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Buena Vista County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Butler County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Calhoun County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Carroll County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Cass County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Cedar County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Cerro Gordo County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Cherokee County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Chickasaw County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Clarke County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Clayton County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Clinton County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Crawford County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Dallas County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Davis County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Decatur County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Delaware County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Des Moines County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Dickinson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Dubuque County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Emmet County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Fayette County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Floyd County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Fremont County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Grundy County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Guthrie County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hamilton County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hancock County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hardin County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Harrison County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Henry County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Howard County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Humboldt County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Ida County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Iowa County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jasper County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Johnson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jones County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Keokuk County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Kossuth County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lee County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Linn County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Louisa County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lucas County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lyon County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Mahaska County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Marshall County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Mills County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Mitchell County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Monona County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Muscatine County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Obrien County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Osceola County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Page County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Palo Alto County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Plymouth County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Pocahontas County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Pottawattamie County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Poweshiek County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Ringgold County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Sac County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Scott County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Shelby County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Sioux County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Story County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Tama County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Taylor County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Union County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Van Buren County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Wapello County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Webster County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Winnebago County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Winneshiek County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Woodbury County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Worth County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Wright County",
+            "taxRate": 7.0
+        }
+    ]
+}

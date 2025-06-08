@@ -1,0 +1,89 @@
+{
+    "state": "New Jersey",
+    "counties": [
+        {
+            "name": "Atlantic County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Bergen County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Burlington County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Camden County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Cape May County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Cumberland County",
+            "taxRate": 8.625
+        },
+        {
+            "name": "Essex County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Gloucester County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Hudson County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Hunterdon County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Mercer County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Middlesex County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Monmouth County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Morris County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Ocean County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Passaic County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Salem County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Somerset County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Sussex County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Union County",
+            "taxRate": 6.625
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 6.625
+        }
+    ]
+}

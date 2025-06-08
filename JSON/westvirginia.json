@@ -1,0 +1,237 @@
+{
+    "state": "West Virginia",
+    "counties": [
+        {
+            "name": "Barbour County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Berkeley County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Boone County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Braxton County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Brooke County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Cabell County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Calhoun County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Clarke County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Doddridge County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Fayette County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Gilmer County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Greenbrier County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hampshire County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hancock County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hardy County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Harrison County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Kanawha County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lewis County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Logan County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Marshall County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Martin County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Mason County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Mcdowell County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Mercer County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Mineral County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Mingo County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Monongalia County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Morgan County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Nicholas County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Ohio County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Pendleton County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Pleasants County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Pocahontas County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Preston County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Putnam County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Raleigh County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Randolph County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Ritchie County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Roane County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Summers County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Taylor County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Tucker County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Tyler County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Upshur County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Webster County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Wetzel County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Wirt County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Wood County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Wyoming County",
+            "taxRate": 6.0
+        }
+    ]
+}

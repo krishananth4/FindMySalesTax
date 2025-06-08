@@ -1,0 +1,261 @@
+{
+    "state": "Colorado",
+    "counties": [
+        {
+            "name": "Adams County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Alamosa County",
+            "taxRate": 8.4
+        },
+        {
+            "name": "Arapahoe County",
+            "taxRate": 9.15
+        },
+        {
+            "name": "Archuleta County",
+            "taxRate": 7.9
+        },
+        {
+            "name": "Baca County",
+            "taxRate": 5.9
+        },
+        {
+            "name": "Bent County",
+            "taxRate": 7.9
+        },
+        {
+            "name": "Boulder County",
+            "taxRate": 9.435
+        },
+        {
+            "name": "Broomfield County",
+            "taxRate": 8.96
+        },
+        {
+            "name": "Chaffee County",
+            "taxRate": 8.65
+        },
+        {
+            "name": "Cheyenne County",
+            "taxRate": 4.9
+        },
+        {
+            "name": "Clear Creek County",
+            "taxRate": 10.55
+        },
+        {
+            "name": "Conejos County",
+            "taxRate": 8.9
+        },
+        {
+            "name": "Costilla County",
+            "taxRate": 7.9
+        },
+        {
+            "name": "Crowley County",
+            "taxRate": 6.9
+        },
+        {
+            "name": "Custer County",
+            "taxRate": 7.9
+        },
+        {
+            "name": "Delta County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Denver County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Dolores County",
+            "taxRate": 8.97
+        },
+        {
+            "name": "Douglas County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Eagle County",
+            "taxRate": 10.4
+        },
+        {
+            "name": "El Paso County",
+            "taxRate": 9.03
+        },
+        {
+            "name": "Elbert County",
+            "taxRate": 7.9
+        },
+        {
+            "name": "Fremont County",
+            "taxRate": 8.7
+        },
+        {
+            "name": "Garfield County",
+            "taxRate": 9.1
+        },
+        {
+            "name": "Gilpin County",
+            "taxRate": 8.9
+        },
+        {
+            "name": "Grand County",
+            "taxRate": 11.2
+        },
+        {
+            "name": "Gunnison County",
+            "taxRate": 9.9
+        },
+        {
+            "name": "Hinsdale County",
+            "taxRate": 7.9
+        },
+        {
+            "name": "Huerfano County",
+            "taxRate": 9.4
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 7.9
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 9.15
+        },
+        {
+            "name": "Kiowa County",
+            "taxRate": 4.9
+        },
+        {
+            "name": "Kit Carson County",
+            "taxRate": 5.9
+        },
+        {
+            "name": "La Plata County",
+            "taxRate": 9.4
+        },
+        {
+            "name": "Lake County",
+            "taxRate": 7.4
+        },
+        {
+            "name": "Larimer County",
+            "taxRate": 8.7
+        },
+        {
+            "name": "Las Animas County",
+            "taxRate": 8.4
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 7.65
+        },
+        {
+            "name": "Logan County",
+            "taxRate": 7
+        },
+        {
+            "name": "Mesa County",
+            "taxRate": 8.66
+        },
+        {
+            "name": "Mineral County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Moffat County",
+            "taxRate": 8.9
+        },
+        {
+            "name": "Montezuma County",
+            "taxRate": 7.35
+        },
+        {
+            "name": "Montrose County",
+            "taxRate": 8.65
+        },
+        {
+            "name": "Morgan County",
+            "taxRate": 6.9
+        },
+        {
+            "name": "Otero County",
+            "taxRate": 8.9
+        },
+        {
+            "name": "Ouray County",
+            "taxRate": 9.45
+        },
+        {
+            "name": "Park County",
+            "taxRate": 8.9
+        },
+        {
+            "name": "Phillips County",
+            "taxRate": 7.4
+        },
+        {
+            "name": "Pitkin County",
+            "taxRate": 10.4
+        },
+        {
+            "name": "Prowers County",
+            "taxRate": 7.9
+        },
+        {
+            "name": "Pueblo County",
+            "taxRate": 7.6
+        },
+        {
+            "name": "Rio Blanco County",
+            "taxRate": 6.5
+        },
+        {
+            "name": "Rio Grande County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Routt County",
+            "taxRate": 8.9
+        },
+        {
+            "name": "Saguache County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "San Juan County",
+            "taxRate": 10.4
+        },
+        {
+            "name": "San Miguel County",
+            "taxRate": 9.47
+        },
+        {
+            "name": "Sedgwick County",
+            "taxRate": 6.9
+        },
+        {
+            "name": "Summit County",
+            "taxRate": 10.375
+        },
+        {
+            "name": "Teller County",
+            "taxRate": 8.4
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 6.9
+        },
+        {
+            "name": "Weld County",
+            "taxRate": 9.055
+        },
+        {
+            "name": "Yuma County",
+            "taxRate": 5.9
+        }
+    ]
+}

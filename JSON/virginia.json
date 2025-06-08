@@ -1,0 +1,381 @@
+{
+    "state": "Virginia",
+    "counties": [
+        {
+            "name": "Accomack County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Albemarle County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Alleghany County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Amelia County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Amherst County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Appomattox County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Arlington County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Augusta County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Bath County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Bedford County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Bland County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Botetourt County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Brunswick County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Buchanan County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Buckingham County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Campbell County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Caroline County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Carroll County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Charlotte County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Chesterfield County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Clarke County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Craig County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Culpeper County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Cumberland County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Dickenson County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Dinwiddie County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Essex County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Fairfax County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Fauquier County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Floyd County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Fluvanna County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Frederick County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Giles County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Gloucester County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Goochland County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Grayson County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Greensville County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Halifax County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Hanover County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Henrico County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Henry County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Highland County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Isle Of Wight County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "King And Queen County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "King George County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "King William County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Lancaster County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Lee County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Loudoun County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Louisa County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Lunenburg County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Mathews County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Mcdowell County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Mecklenburg County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Middlesex County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Nelson County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "New Kent County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Northampton County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Northumberland County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Nottoway County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Orange County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Page County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Patrick County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Pittsylvania County",
+            "taxRate": 6.3
+        },
+        {
+            "name": "Powhatan County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Prince Edward County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Prince George County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Prince William County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Pulaski County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Rappahannock County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Richmond County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Roanoke County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Rockbridge County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Rockingham County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Russell County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Scott County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Shenandoah County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Smyth County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Southampton County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Spotsylvania County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Stafford County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Surry County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Sussex County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Tazewell County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Westmoreland County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Wise County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "Wythe County",
+            "taxRate": 5.3
+        },
+        {
+            "name": "York County",
+            "taxRate": 7.0
+        }
+    ]
+}

@@ -1,0 +1,337 @@
+{
+    "state": "Michigan",
+    "counties": [
+        {
+            "name": "Alcona County",
+            "taxRate": 6
+        },
+        {
+            "name": "Alger County",
+            "taxRate": 6
+        },
+        {
+            "name": "Allegan County",
+            "taxRate": 6
+        },
+        {
+            "name": "Alpena County",
+            "taxRate": 6
+        },
+        {
+            "name": "Antrim County",
+            "taxRate": 6
+        },
+        {
+            "name": "Arenac County",
+            "taxRate": 6
+        },
+        {
+            "name": "Baraga County",
+            "taxRate": 6
+        },
+        {
+            "name": "Barry County",
+            "taxRate": 6
+        },
+        {
+            "name": "Bay County",
+            "taxRate": 6
+        },
+        {
+            "name": "Benzie County",
+            "taxRate": 6
+        },
+        {
+            "name": "Berrien County",
+            "taxRate": 6
+        },
+        {
+            "name": "Branch County",
+            "taxRate": 6
+        },
+        {
+            "name": "Calhoun County",
+            "taxRate": 6
+        },
+        {
+            "name": "Cass County",
+            "taxRate": 6
+        },
+        {
+            "name": "Charlevoix County",
+            "taxRate": 6
+        },
+        {
+            "name": "Cheboygan County",
+            "taxRate": 6
+        },
+        {
+            "name": "Chippewa County",
+            "taxRate": 6
+        },
+        {
+            "name": "Clare County",
+            "taxRate": 6
+        },
+        {
+            "name": "Clinton County",
+            "taxRate": 6
+        },
+        {
+            "name": "Crawford County",
+            "taxRate": 6
+        },
+        {
+            "name": "Delta County",
+            "taxRate": 6
+        },
+        {
+            "name": "Dickinson County",
+            "taxRate": 6
+        },
+        {
+            "name": "Eaton County",
+            "taxRate": 6
+        },
+        {
+            "name": "Emmet County",
+            "taxRate": 6
+        },
+        {
+            "name": "Genesee County",
+            "taxRate": 6
+        },
+        {
+            "name": "Gladwin County",
+            "taxRate": 6
+        },
+        {
+            "name": "Gogebic County",
+            "taxRate": 6
+        },
+        {
+            "name": "Grand Traverse County",
+            "taxRate": 6
+        },
+        {
+            "name": "Gratiot County",
+            "taxRate": 6
+        },
+        {
+            "name": "Hillsdale County",
+            "taxRate": 6
+        },
+        {
+            "name": "Houghton County",
+            "taxRate": 6
+        },
+        {
+            "name": "Huron County",
+            "taxRate": 6
+        },
+        {
+            "name": "Ingham County",
+            "taxRate": 6
+        },
+        {
+            "name": "Ionia County",
+            "taxRate": 6
+        },
+        {
+            "name": "Iosco County",
+            "taxRate": 6
+        },
+        {
+            "name": "Iron County",
+            "taxRate": 6
+        },
+        {
+            "name": "Isabella County",
+            "taxRate": 6
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 6
+        },
+        {
+            "name": "Kalamazoo County",
+            "taxRate": 6
+        },
+        {
+            "name": "Kalkaska County",
+            "taxRate": 6
+        },
+        {
+            "name": "Kent County",
+            "taxRate": 6
+        },
+        {
+            "name": "Keweenaw County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lake County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lapeer County",
+            "taxRate": 6
+        },
+        {
+            "name": "Leelanau County",
+            "taxRate": 6
+        },
+        {
+            "name": "Lenawee County",
+            "taxRate": 6
+        },
+        {
+            "name": "Livingston County",
+            "taxRate": 6
+        },
+        {
+            "name": "Luce County",
+            "taxRate": 6
+        },
+        {
+            "name": "Mackinac County",
+            "taxRate": 6
+        },
+        {
+            "name": "Macomb County",
+            "taxRate": 6
+        },
+        {
+            "name": "Manistee County",
+            "taxRate": 6
+        },
+        {
+            "name": "Marquette County",
+            "taxRate": 6
+        },
+        {
+            "name": "Mason County",
+            "taxRate": 6
+        },
+        {
+            "name": "Mecosta County",
+            "taxRate": 6
+        },
+        {
+            "name": "Menominee County",
+            "taxRate": 6
+        },
+        {
+            "name": "Midland County",
+            "taxRate": 6
+        },
+        {
+            "name": "Missaukee County",
+            "taxRate": 6
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 6
+        },
+        {
+            "name": "Montcalm County",
+            "taxRate": 6
+        },
+        {
+            "name": "Montmorency County",
+            "taxRate": 6
+        },
+        {
+            "name": "Muskegon County",
+            "taxRate": 6
+        },
+        {
+            "name": "Newaygo County",
+            "taxRate": 6
+        },
+        {
+            "name": "Oakland County",
+            "taxRate": 6
+        },
+        {
+            "name": "Oceana County",
+            "taxRate": 6
+        },
+        {
+            "name": "Ogemaw County",
+            "taxRate": 6
+        },
+        {
+            "name": "Ontonagon County",
+            "taxRate": 6
+        },
+        {
+            "name": "Osceola County",
+            "taxRate": 6
+        },
+        {
+            "name": "Oscoda County",
+            "taxRate": 6
+        },
+        {
+            "name": "Otsego County",
+            "taxRate": 6
+        },
+        {
+            "name": "Ottawa County",
+            "taxRate": 6
+        },
+        {
+            "name": "Presque Isle County",
+            "taxRate": 6
+        },
+        {
+            "name": "Roscommon County",
+            "taxRate": 6
+        },
+        {
+            "name": "Saginaw County",
+            "taxRate": 6
+        },
+        {
+            "name": "Sanilac County",
+            "taxRate": 6
+        },
+        {
+            "name": "Schoolcraft County",
+            "taxRate": 6
+        },
+        {
+            "name": "Shiawassee County",
+            "taxRate": 6
+        },
+        {
+            "name": "St. Clair County",
+            "taxRate": 6
+        },
+        {
+            "name": "St Joseph County",
+            "taxRate": 6
+        },
+        {
+            "name": "Tuscola County",
+            "taxRate": 6
+        },
+        {
+            "name": "Van Buren County",
+            "taxRate": 6
+        },
+        {
+            "name": "Washtenaw County",
+            "taxRate": 6
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 6
+        },
+        {
+            "name": "Wexford County",
+            "taxRate": 6
+        }
+    ]
+}

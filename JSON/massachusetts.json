@@ -1,0 +1,61 @@
+{
+    "state": "Massachusetts",
+    "counties": [
+        {
+            "name": "Barnstable County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Berkshire County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Bristol County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Dukes County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Essex County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Hampden County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Hampshire County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Middlesex County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Nantucket County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Norfolk County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Plymouth County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Suffolk County",
+            "taxRate": 6.25
+        },
+        {
+            "name": "Worcester County",
+            "taxRate": 6.25
+        }
+    ]
+}

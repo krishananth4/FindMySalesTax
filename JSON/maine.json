@@ -1,0 +1,69 @@
+{
+    "state": "Maine",
+    "counties": [
+        {
+            "name": "Androscoggin County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Aroostook County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Cumberland County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Hancock County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Kennebec County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Knox County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Oxford County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Penobscot County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Piscataquis County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Sagadahoc County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Somerset County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Waldo County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 5.5
+        },
+        {
+            "name": "York County",
+            "taxRate": 5.5
+        }
+    ]
+}

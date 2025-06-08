@@ -1,0 +1,397 @@
+{
+    "state": "Tennessee",
+    "counties": [
+        {
+            "name": "Anderson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Bedford County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Benton County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Bledsoe County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Blount County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Bradley County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Campbell County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Cannon County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Carroll County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Carter County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Cheatham County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Chester County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Christian County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Claiborne County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Clinton County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Cocke County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Coffee County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Crockett County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Cumberland County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Davidson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "De Kalb County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Decatur County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Dickson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Dyer County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Fayette County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Fentress County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Gibson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Giles County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Grainger County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Grundy County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Hamblen County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Hamilton County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Hancock County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Hardeman County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Hardin County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Hawkins County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Haywood County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Henderson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Henry County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Hickman County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Houston County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Humphreys County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Johnson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Knox County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Lake County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Lauderdale County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Lawrence County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Lewis County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Loudon County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Macon County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Marshall County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Maury County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Mcminn County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Mcnairy County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Meigs County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Mississippi County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Moore County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Morgan County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Obion County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Overton County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Perry County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Pickett County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Putnam County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Rhea County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Roane County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Robertson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Rutherford County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Scott County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Sequatchie County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Sevier County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Shelby County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Smith County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Stewart County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Sullivan County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Sumner County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Tipton County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Trousdale County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Unicoi County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Union County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Van Buren County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Weakley County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "White County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Williamson County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Wilson County",
+            "taxRate": 9.75
+        }
+    ]
+}

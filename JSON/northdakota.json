@@ -1,0 +1,213 @@
+{
+    "state": "North Dakota",
+    "counties": [
+        {
+            "name": "Barnes County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Benson County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Billings County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Bottineau County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Bowman County",
+            "taxRate": 5.0
+        },
+        {
+            "name": "Burke County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Burleigh County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Cass County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Cavalier County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Dickey County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Divide County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Dunn County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Eddy County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Emmons County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Foster County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Golden Valley County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Grand Forks County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Griggs County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Hettinger County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Kidder County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Lamoure County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Logan County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Mchenry County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Mcintosh County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Mckenzie County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Mclean County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Mercer County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Morton County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Mountrail County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Nelson County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Oliver County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Pembina County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Pierce County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Ramsey County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Ransom County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Renville County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Richland County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Rolette County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Sargent County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Sheridan County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Sioux County",
+            "taxRate": 6.0
+        },
+        {
+            "name": "Slope County",
+            "taxRate": 5.0
+        },
+        {
+            "name": "Stark County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Steele County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Stutsman County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Towner County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Traill County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Walsh County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Ward County",
+            "taxRate": 7.5
+        },
+        {
+            "name": "Wells County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Williams County",
+            "taxRate": 8.5
+        }
+    ]
+}

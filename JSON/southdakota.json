@@ -1,0 +1,321 @@
+{
+    "state": "South Dakota",
+    "counties": [
+        {
+            "name": "Adams County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Aurora County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Beadle County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Bennett County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Bon Homme County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Bowman County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Brookings County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Brown County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Brule County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Buffalo County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Butte County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Campbell County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Charles Mix County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Cherry County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Clark County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Clay County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Codington County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Corson County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Custer County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Davison County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Dawes County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Day County",
+            "taxRate": 7.2
+        },
+        {
+            "name": "Deuel County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Dewey County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Dickey County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Douglas County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Edmunds County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Fall River County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Faulk County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Grant County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Gregory County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Haakon County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Hamlin County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Hand County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Hanson County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Harding County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Hughes County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Hutchinson County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Hyde County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Jerauld County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Jones County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Kingsbury County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Lake County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Lawrence County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Lyman County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Marshall County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Mccook County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Mcintosh County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Mcpherson County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Meade County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Mellette County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Miner County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Minnehaha County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Moody County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Pennington County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Perkins County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Pipestone County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Plymouth County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Potter County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Richland County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Roberts County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Rock County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Sanborn County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Sargent County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Shannon County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Sioux County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Spink County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Stanley County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Sully County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Todd County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Traverse County",
+            "taxRate": 4.2
+        },
+        {
+            "name": "Tripp County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Turner County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Union County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Walworth County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Yankton County",
+            "taxRate": 6.2
+        },
+        {
+            "name": "Ziebach County",
+            "taxRate": 6.2
+        }
+    ]
+}

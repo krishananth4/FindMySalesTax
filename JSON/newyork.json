@@ -1,0 +1,253 @@
+{
+    "state": "New York",
+    "counties": [
+        {
+            "name": "Albany County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Allegany County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Bronx County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Broome County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Cattaraugus County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Cayuga County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Chautauqua County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Chemung County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Chenango County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Clinton County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Columbia County",
+            "taxRate": 8.125
+        },
+        {
+            "name": "Cortland County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Delaware County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Dutchess County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Erie County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Essex County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Franklin County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Fulton County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Genesee County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Greene County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Hamilton County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Herkimer County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Kings County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Lewis County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Livingston County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Nassau County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "New York County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Niagara County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Oneida County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Onondaga County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Ontario County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Orange County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Orleans County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Oswego County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Otsego County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Putnam County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Queens County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Rensselaer County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Richmond County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Rockland County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Saratoga County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Schenectady County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Schoharie County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Schuyler County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Seneca County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "St Lawrence County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Steuben County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Suffolk County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Sullivan County",
+            "taxRate": 8.125
+        },
+        {
+            "name": "Tioga County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Tompkins County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Ulster County",
+            "taxRate": 8.125
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 8.375
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Westchester County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Wyoming County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Yates County",
+            "taxRate": 8.0
+        }
+    ]
+}

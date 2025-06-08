@@ -1,0 +1,237 @@
+{
+    "state": "California",
+    "counties": [
+        {
+            "name": "Alameda County",
+            "taxRate": 10.75
+        },
+        {
+            "name": "Alpine County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Amador County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Butte County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Calaveras County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Colusa County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Contra Costa County",
+            "taxRate": 10.75
+        },
+        {
+            "name": "Del Norte County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "El Dorado County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Fresno County",
+            "taxRate": 9.225
+        },
+        {
+            "name": "Glenn County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Humboldt County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Imperial County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Inyo County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Kern County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Kings County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Lake County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Lassen County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Los Angeles County",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Madera County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Marin County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Mariposa County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Mendocino County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Merced County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Modoc County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Mono County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Monterey County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Napa County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Nevada County",
+            "taxRate": 9
+        },
+        {
+            "name": "Orange County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Placer County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Plumas County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Riverside County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Sacramento County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "San Benito County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "San Bernardino County",
+            "taxRate": 10.5
+        },
+        {
+            "name": "San Diego County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "San Francisco County",
+            "taxRate": 9.875
+        },
+        {
+            "name": "San Joaquin County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "San Luis Obispo County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "San Mateo County",
+            "taxRate": 9.875
+        },
+        {
+            "name": "Santa Barbara County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Santa Clara County",
+            "taxRate": 9.875
+        },
+        {
+            "name": "Santa Cruz County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Shasta County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Sierra County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Siskiyou County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Solano County",
+            "taxRate": 9.625
+        },
+        {
+            "name": "Sonoma County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Stanislaus County",
+            "taxRate": 8.875
+        },
+        {
+            "name": "Sutter County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Tehama County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Trinity County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Tulare County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Tuolumne County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Ventura County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Yolo County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Yuba County",
+            "taxRate": 8.25
+        }
+    ]
+}

@@ -1,0 +1,265 @@
+{
+    "state": "Louisiana",
+    "counties": [
+        {
+            "name": "Acadia Parish",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Allen Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Ascension Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Assumption Parish",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Avoyelles Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Beauregard Parish",
+            "taxRate": 10.75
+        },
+        {
+            "name": "Bienville Parish",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Bossier Parish",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Caddo Parish",
+            "taxRate": 11.35
+        },
+        {
+            "name": "Calcasieu Parish",
+            "taxRate": 12.75
+        },
+        {
+            "name": "Caldwell Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Cameron Parish",
+            "taxRate": 5.0
+        },
+        {
+            "name": "Catahoula Parish",
+            "taxRate": 12.0
+        },
+        {
+            "name": "Chicot County",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Claiborne Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Concordia Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "De Soto Parish",
+            "taxRate": 10.5
+        },
+        {
+            "name": "East Baton Rouge Parish",
+            "taxRate": 12.5
+        },
+        {
+            "name": "East Carroll Parish",
+            "taxRate": 12.0
+        },
+        {
+            "name": "East Feliciana Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Evangeline Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Franklin Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Grant Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Iberia Parish",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Iberville Parish",
+            "taxRate": 10.916
+        },
+        {
+            "name": "Jackson Parish",
+            "taxRate": 10.0
+        },
+        {
+            "name": "Jefferson Davis Parish",
+            "taxRate": 12.0
+        },
+        {
+            "name": "Jefferson Parish",
+            "taxRate": 10.55
+        },
+        {
+            "name": "La Salle Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Lafayette Parish",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Lafourche Parish",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Lincoln Parish",
+            "taxRate": 12.75
+        },
+        {
+            "name": "Livingston Parish",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Madison Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Morehouse Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Natchitoches Parish",
+            "taxRate": 12.5
+        },
+        {
+            "name": "Orleans Parish",
+            "taxRate": 12.0
+        },
+        {
+            "name": "Ouachita Parish",
+            "taxRate": 13.5
+        },
+        {
+            "name": "Plaquemines Parish",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Pointe Coupee Parish",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Rapides Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Red River Parish",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Richland Parish",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Sabine Parish",
+            "taxRate": 11.625
+        },
+        {
+            "name": "St Bernard Parish",
+            "taxRate": 10.0
+        },
+        {
+            "name": "St Charles Parish",
+            "taxRate": 10.25
+        },
+        {
+            "name": "St Helena Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "St James Parish",
+            "taxRate": 10.25
+        },
+        {
+            "name": "St John The Baptist Parish",
+            "taxRate": 10.25
+        },
+        {
+            "name": "St Landry Parish",
+            "taxRate": 12.55
+        },
+        {
+            "name": "St Martin Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "St. Mary Parish",
+            "taxRate": 10.45
+        },
+        {
+            "name": "St Tammany Parish",
+            "taxRate": 10.83
+        },
+        {
+            "name": "Tangipahoa Parish",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Tensas Parish",
+            "taxRate": 11.75
+        },
+        {
+            "name": "Terrebonne Parish",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Union Parish",
+            "taxRate": 12.0
+        },
+        {
+            "name": "Vermilion Parish",
+            "taxRate": 11.25
+        },
+        {
+            "name": "Vernon Parish",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Washington Parish",
+            "taxRate": 11.5
+        },
+        {
+            "name": "Webster Parish",
+            "taxRate": 12.5
+        },
+        {
+            "name": "West Baton Rouge Parish",
+            "taxRate": 10.75
+        },
+        {
+            "name": "West Carroll Parish",
+            "taxRate": 11.5
+        },
+        {
+            "name": "West Feliciana Parish",
+            "taxRate": 10.5
+        },
+        {
+            "name": "Winn Parish",
+            "taxRate": 10.5
+        }
+    ]
+}
