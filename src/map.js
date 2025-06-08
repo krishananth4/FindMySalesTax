@@ -72,8 +72,6 @@ function showOnlyState(stateToShow) {
     document.getElementById("countiesMap").style.display = 'block';
     console.log("Showing only state "+stateToShow);
     stateMap.style.display = 'none';    
-    state.style.width = '1000%';
-    state.style.height = '1000%';
 
     // Iterate through all possible state IDs
     allStateIds.forEach(stateId => {
