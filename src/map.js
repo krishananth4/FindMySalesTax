@@ -101,6 +101,7 @@ function showOnlyState(stateToShow) {
 }
 
 function showStateMap(){
+    console.log("showing state map");
     document.getElementById("countiesMap").style.display = 'none';    
     let stateMap = document.getElementById("statesMap");
     stateMap.style.display = 'block';
@@ -126,10 +127,11 @@ function showStateMap(){
 }
 
 function showCountyMap(){
+    console.log("showing county map");
     showAllStates();
     document.getElementById("statesMap").style.display = "none"
     
-    document.getElementById("countiesMap").style.display = 'fill';
+    document.getElementById("countiesMap").style.display = 'block';
     const fullStatesMapButton = document.getElementById("viewStatesMapButton");
     fullStatesMapButton.addEventListener('click', showStateMap);
 }
