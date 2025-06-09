@@ -1,0 +1,9 @@
+{
+    "state": "District of Columbia",
+    "counties": [
+        {
+            "name": "District of Columbia",
+            "taxRate": 6
+        }
+    ]
+}
