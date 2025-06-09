@@ -3,143 +3,151 @@
     "counties": [
         {
             "name": "Appling County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Atkinson County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Bacon County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Baker County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Baldwin County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Banks County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Barrow County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Bartow County",
-            "taxRate": 7
+            "taxRate": 7.0
         },
         {
             "name": "Ben Hill County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Berrien County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Bibb County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Bleckley County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Brantley County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Brooks County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Bryan County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Bulloch County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Burke County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Butts County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Calhoun County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Camden County",
-            "taxRate": 7
+            "taxRate": 7.0
         },
         {
             "name": "Candler County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Carroll County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Catoosa County",
-            "taxRate": 8
+            "taxRate": 8.0
+        },
+        {
+            "name": "Chambers County",
+            "taxRate": 7.0
         },
         {
             "name": "Charlton County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Chatham County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Chattahoochee County",
-            "taxRate": 9
+            "taxRate": 9.0
         },
         {
             "name": "Chattooga County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Cherokee County",
-            "taxRate": 7
+            "taxRate": 7.0
         },
         {
             "name": "Clarke County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Clay County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Clayton County",
-            "taxRate": 8
+            "taxRate": 8.0
+        },
+        {
+            "name": "Cleburne County",
+            "taxRate": 7.0
         },
         {
             "name": "Clinch County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Cobb County",
-            "taxRate": 7
+            "taxRate": 7.0
         },
         {
             "name": "Coffee County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Colquitt County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Columbia County",
@@ -147,31 +155,31 @@
         },
         {
             "name": "Cook County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Coweta County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Crawford County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Crisp County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Dade County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Dawson County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Decatur County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Dekalb County",
@@ -179,111 +187,463 @@
         },
         {
             "name": "Dodge County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Dooly County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Dougherty County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Douglas County",
-            "taxRate": 7
+            "taxRate": 7.0
         },
         {
             "name": "Early County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Echols County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Effingham County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Elbert County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Emanuel County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Evans County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Fannin County",
-            "taxRate": 7
+            "taxRate": 7.0
         },
         {
             "name": "Fayette County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Floyd County",
-            "taxRate": 7
+            "taxRate": 7.0
         },
         {
             "name": "Forsyth County",
-            "taxRate": 7
+            "taxRate": 7.0
         },
         {
             "name": "Franklin County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Fulton County",
-            "taxRate": 9
+            "taxRate": 9.0
         },
         {
             "name": "Gilmer County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Glascock County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Glynn County",
-            "taxRate": 7
+            "taxRate": 7.0
         },
         {
             "name": "Gordon County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Grady County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Greene County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Gwinnett County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Habersham County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Hall County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Hancock County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Haralson County",
-            "taxRate": 8
+            "taxRate": 8.0
+        },
+        {
+            "name": "Harris County",
+            "taxRate": 9.0
+        },
+        {
+            "name": "Hart County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Heard County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Henry County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Houston County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Irwin County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Jackson County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Jasper County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Jeff Davis County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Jefferson County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Jenkins County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Johnson County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Jones County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Lamar County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Lanier County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Laurens County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Lee County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Liberty County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Lincoln County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Long County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Lowndes County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Lumpkin County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Macon County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Madison County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Marion County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Mcduffie County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Mcintosh County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Meriwether County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Miller County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Mitchell County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Monroe County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Montgomery County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Morgan County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Murray County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Muscogee County",
+            "taxRate": 9.0
+        },
+        {
+            "name": "Newton County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Oconee County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Oglethorpe County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Paulding County",
+            "taxRate": 7.0
+        },
+        {
+            "name": "Peach County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Pickens County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Pierce County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Pike County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Polk County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Pulaski County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Putnam County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Quitman County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Rabun County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Randolph County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Richmond County",
+            "taxRate": 8.5
+        },
+        {
+            "name": "Rockdale County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Schley County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Screven County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Seminole County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Spalding County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Stephens County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Stewart County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Sumter County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Talbot County",
+            "taxRate": 9.0
+        },
+        {
+            "name": "Taliaferro County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Tattnall County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Taylor County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Telfair County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Terrell County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Thomas County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Tift County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Toombs County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Towns County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Treutlen County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Troup County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Turner County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Twiggs County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Union County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Upson County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Walker County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Walton County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Ware County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Webster County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Wheeler County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "White County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Whitfield County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Wilcox County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Wilkes County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Wilkinson County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Worth County",
+            "taxRate": 8.0
         }
     ]
 }
