@@ -287,7 +287,9 @@ async function getSalesTax(arr) {
         county: county,
         state: state
     };
-
+    if(state === "Alaska" || state === "Delaware" || state === "Montana" || state === "New Hampshire" || state === "Oregon"){
+        return 0; // No Sales tax for any of the counties
+    }
     try {
         const response = await fetch("get_tax.php", {
             method: "POST",
