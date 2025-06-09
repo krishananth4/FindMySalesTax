@@ -11,7 +11,6 @@
 <body>
     <div class="header">
         <nav>
-            <!-- Nav Bar creation -->
             <a href="usamap.html"><img class="logo" src="logo.png" alt="Mylogo" /></a>
             <ul class="nav-options">
                 <li><a class="navA" href="usamap.html">Home</a></li>
@@ -20,23 +19,24 @@
             </ul>
         </nav>
     </div>
+
     <h1>Contact Us!</h1>
-    <div class="form">
-        <form id="contact" action="mailto:kananth@scu.edu?subject=Fill_This_In" method="POST" enctype="text/plain">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
 
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
+    <div class="form-container">
+        <div class="form">
+            <form id="contact" action="mailto:kananth@scu.edu?subject=Fill_This_In" method="POST" enctype="text/plain">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-        </form>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
 </body>
 </html>
