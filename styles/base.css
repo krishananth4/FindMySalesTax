@@ -1,56 +1,251 @@
+/* Reset and base styles */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Background color */
+/* Background and body */
 body {
     min-height: 100vh;
-    background-color: rgb(199, 255, 185);
+    background: linear-gradient(135deg, #88D298 0%, #667eea 100%);
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
 }
 
-/* Header Formatting  */
+/* Header/Navigation */
 nav {
-    background-color: #88D298;
-    box-shadow: 3px 3px 5px black;
+    background-color: rgba(136, 210, 152, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 50px;
-    height: 100px;
+    height: 7rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-/* This is for the selection/links in the header */
+/* Navigation links */
 nav ul {
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 100%;
+    gap: 10px;
 }
 
 nav li {
-    height: 100px;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 nav a {
-    padding: 0 30px;
+    padding: 0 25px;
     text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     align-items: center;
-    color: black;
+    color: #2d3748;
     height: 100%;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 0 5px;
 }
 
-nav ul a:hover {
-    background-color: rgb(207, 207, 207);
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
 }
 
-/* formatting for the logo */
+/* Logo styling */
 nav .logo {
+    display: flex;
+    height: 5rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+nav .logo:hover {
+    transform: scale(1.05);
+}
+
+/* Main content */
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Search section */
+#searchByState {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 40px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#searchByState:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
+}
+
+#searchByState h2 {
+    color: #4a5568;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+/* Different maps section */
+#differentMaps {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 30px 0;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+select {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
     display: block;
-    width: auto;
-    height: 90px;
-    border-radius: 30%;
+    padding: 15px 20px;
+    font-size: 1.1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 12px;
+    background: white;
+    color: #4a5568;
+    transition: all 0.3s ease;
+    appearance: none;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e");
+    background-position: right 15px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+select:focus {
+    outline: none;
+    border-color: #667eea;
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+    transform: translateY(-2px);
+}
+
+select:hover {
+    border-color: #667eea;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Typography improvements */
+h1, h2, h3 {
+    font-weight: 600;
+    color: #2d3748;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+label {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #4a5568;
+    margin-bottom: 15px;
+    text-align: center;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    nav a {
+        padding: 0 15px;
+        font-size: 0.9rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    main {
+        padding: 1rem;
+    }
+
+    #searchByState,
+    #differentMaps {
+        padding: 25px 20px;
+        margin: 20px 0;
+    }
+
+    select {
+        max-width: 100%;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        padding: 15px;
+    }
+
+    nav .logo {
+        height: 4rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #searchByState,
+    #differentMaps {
+        padding: 20px 15px;
+        border-radius: 15px;
+    }
+
+    select {
+        padding: 12px 15px;
+    }
+}
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Focus states for accessibility */
+a:focus,
+select:focus {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
 }

@@ -1,14 +1,13 @@
+
 h1{
     text-decoration: underline;
     font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
 p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     font-size: 20px;
 }
