@@ -1,0 +1,28 @@
+h1{
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.text-contents {
+    text-align: center;
+    border: 10px solid white;
+    background-color: white;
+    border-radius: 40px;
+    padding: 20px;
+    max-width: 50%;
+}
+
+.text-border {
+    display: flex;
+    justify-content: center;
+}
