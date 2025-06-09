@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="logo.png" />
     <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
     <title>Contact Us</title>
 </head>
 <body>
@@ -19,5 +20,19 @@
             </ul>
         </nav>
     </div>
+    <h1>Contact Us!</h1>
+    <div class="form">
+        <form id="contact" action="mailto:kananth@scu.edu?subject=Fill_This_In" method="POST" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+
 </body>
 </html>

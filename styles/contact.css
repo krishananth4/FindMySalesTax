@@ -1,0 +1,38 @@
+h1{
+    margin-top: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 5px black;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 80px;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+
+/* Creates the message and input formatting */
+.form input,
+.form textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form button {
+    width: 100%;
+    padding: 12px;
+}
+
+/* Adding hover effect over the save button */
+.form button:hover {
+    background-color: goldenrod;
+}
