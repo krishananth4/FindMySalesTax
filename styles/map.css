@@ -48,3 +48,7 @@ path {
 path:hover{
     fill: rgb(243, 239, 146);
 }
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

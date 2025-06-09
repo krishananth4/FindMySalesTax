@@ -5,6 +5,7 @@ h1{
 }
 
 .form {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
     padding: 40px;
     border-radius: 8px;
@@ -35,4 +36,8 @@ h1{
 /* Adding hover effect over the save button */
 .form button:hover {
     background-color: goldenrod;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
