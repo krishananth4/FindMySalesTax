@@ -324,6 +324,17 @@ function showOnlyState(stateToShow) {
     console.log("Showing only state " + stateToShow);
     stateMap.style.display = 'none';
 
+    // Update the dropdown selector
+    const stateSelection = document.getElementById("stateSelection");
+    // Iterate through options and set 'selected' for the matching value
+    Array.from(stateSelection.options).forEach(option => {
+        if (option.value === stateToShow) {
+            option.selected = true;
+        } else {
+            option.selected = false;
+        }
+    });    
+    
     // Show/hide states as before
     allStateIds.forEach(stateId => {
         const element = document.getElementById("stateId");
