@@ -53,7 +53,7 @@ const states = new Map([
 ["dc", "DC"]
 ]);
 
-// Array of all state names (matching the IDs of your HTML elements)
+// Array of all state names
 const allStateIds = [
 "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado",
 "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho",
@@ -66,52 +66,170 @@ const allStateIds = [
 "Washington", "West_Virginia", "Wisconsin", "Wyoming", "DC"
 ];
 
-// Shows a specific state element and hides all other state elements, and assumes each state has an HTML element with an ID matching its full name
-function showOnlyState(stateToShow) {
-    let stateMap = document.getElementById("statesMap");
-    let state = document.getElementById("state");
-    document.getElementById("countiesMap").style.display = 'block';
-    console.log("Showing only state "+stateToShow);
-    stateMap.style.display = 'none';    
+// track unique element states
+let currentFloatingWindow = null;
+let countyClickHandler = null;
 
-    // Iterate through all possible state IDs
+/**
+ * handle click event for county
+ */
+async function handleCountyClick(event) {
+    hideFloatingTaxWindow();
+    
+    const titleElement = event.target.querySelector('title');
+    if (titleElement) {
+        let countyName = titleElement.textContent; 
+        let loc = findStateName(countyName);
+        
+        //get location
+        const x = event.clientX;
+        const y = event.clientY;
+        
+        console.log('Fetching tax for:', loc);
+        
+        try {
+            const taxRate = await getSalesTax(loc);
+            // Update window with actual tax rate
+            showFloatingTaxWindow(x, y, loc[0], loc[1], taxRate);
+        } catch (error) {
+            console.error('Error fetching tax rate:', error);
+            showFloatingTaxWindow(x, y, loc[0], loc[1], null);
+        }
+    }
+}
+
+/**
+ * remove county click listeners from all path elements
+ */
+function removeCountyClickListeners() {
+    if (countyClickHandler) {
+        Array.from(document.getElementsByTagName('path')).forEach(pathElement => {
+            pathElement.removeEventListener('click', countyClickHandler);
+        });
+    }
+}
+
+/**
+ * Adds county click listeners to all path elements
+ */
+function addCountyClickListeners() {
+    removeCountyClickListeners();
+    countyClickHandler = handleCountyClick;
+    
+    // add click listeners to all elements
+    Array.from(document.getElementsByTagName('path')).forEach(pathElement => {
+        pathElement.addEventListener('click', countyClickHandler);
+    });
+}
+
+/**
+ * create and display window for tax info
+ * @param {number} x 
+ * @param {number} y 
+ * @param {string} countyName 
+ * @param {string} stateName 
+ * @param {number|null} taxRate 
+ */
+function showFloatingTaxWindow(x, y, countyName, stateName, taxRate) {
+    // remove old ones
+    hideFloatingTaxWindow();
+    
+    const floatingWindow = document.createElement('div');
+    floatingWindow.id = 'taxFloatingWindow';
+    floatingWindow.className = 'tax-floating-window';
+    
+    // create window element
+    let content;
+    if (taxRate !== null && taxRate !== undefined) {
+        content = `
+            <div class="tax-window-header">
+                <strong>${countyName}</strong>
+                <div class="tax-window-state">${stateName}</div>
+            </div>
+            <div class="tax-window-rate">
+                <span class="tax-label">Sales Tax:</span>
+                <span class="tax-value">${taxRate}%</span>
+            </div>
+        `;
+    } else {
+        content = `
+            <div class="tax-window-header">
+                <strong>${countyName}</strong>
+                <div class="tax-window-state">${stateName}</div>
+            </div>
+            <div class="tax-window-error">
+                Tax rate not available
+            </div>
+        `;
+    }
+    
+    floatingWindow.innerHTML = content;
+    
+    // position the window and attach it to DOM
+    floatingWindow.style.left = `${x + 10}px`;
+    floatingWindow.style.top = `${y - 10}px`;
+    
+    document.body.appendChild(floatingWindow);
+    currentFloatingWindow = floatingWindow;
+    
+    setTimeout(() => {
+        floatingWindow.classList.add('show');
+    }, 10);
+}
+
+/**
+ * Hides and removes the floating tax window
+ */
+function hideFloatingTaxWindow() {
+    if (currentFloatingWindow) {
+        currentFloatingWindow.classList.remove('show');
+        setTimeout(() => {
+            if (currentFloatingWindow && currentFloatingWindow.parentNode) {
+                currentFloatingWindow.parentNode.removeChild(currentFloatingWindow);
+            }
+            currentFloatingWindow = null;
+        }, 200); 
+    }
+}
+
+/**
+ * hides all other state elements, showing the selected one
+ * @param {string} stateToShow 
+ */
+function showOnlyState(stateToShow) {
+    // hide existing floating windows
+    hideFloatingTaxWindow();
+    
+    let stateMap = document.getElementById("statesMap");
+    document.getElementById("countiesMap").style.display = 'block';
+
+    console.log("Showing only state " + stateToShow);
+    stateMap.style.display = 'none';   
+    // if the selected state exists, show it otherwise hide
     allStateIds.forEach(stateId => {
         const element = document.getElementById(stateId);
         if (element) {
-        if (stateId === stateToShow) {
-            // If it's the state to show, set its display to 'block'
-            element.style.display = 'block';
+            if (stateId === stateToShow) {
+                element.style.display = 'block';
+            } else {
+                element.style.display = 'none';
+            }
         } else {
-            // Otherwise, hide it
-            element.style.display = 'none';
-        }
-        } else {
-        console.warn(`Element with ID "${stateId}" not found.`);
+            console.warn(`Element with ID "${stateId}" not found.`);
         }
     });
-    // Hide the "borders" element when showing only one state
+    
     const bordersElement = document.getElementById("borders");
     if (bordersElement) {
         bordersElement.style.display = 'none';
     } else {
         console.warn(`Element with ID "borders" not found.`);
     }
+    // reset onclick handlers
+    addCountyClickListeners();
 
-    Array.from(document.getElementsByTagName('path')).forEach(e => {
-        e.addEventListener('click', () => {
-            const titleElement = e.querySelector('title');
-            if (titleElement) {
-                console.log(titleElement.textContent);
-                let countyName = titleElement.textContent; // ex. Hennepin, MN
-                //invoke call to DB here based on the textcontent
-                console.log(findStateName(countyName));
-
-            }
-        });
-    });
-
-    //udpate switch button
     const fullStatesMapButton = document.getElementById("viewStatesMapButton");
+    fullStatesMapButton.removeEventListener('click', showStateMap);
     fullStatesMapButton.addEventListener('click', showStateMap);
 }
 
@@ -123,17 +241,103 @@ function showOnlyState(stateToShow) {
 function findStateName(code) {
     const [county, stateCode] = code.split(',').map(s => s.trim().toLowerCase());
 
-    const fullStateName = states.get(stateCode).replace(/_/g, ' ').toLowerCase();
+    let fullStateName = states.get(stateCode);
     if (!fullStateName) {
         console.warn(`Unrecognized state code: ${stateCode}`);
         return code;
     }
 
-    return [county, fullStateName];
+    console.log("Original state name:", fullStateName);
+    
+    const countyCap = capitalizeWords(county) + " County";
+    const stateCap = capitalizeWords(fullStateName);
+
+    console.log("Processed:", countyCap + ", " + stateCap);
+    return [countyCap, stateCap];
 }
 
-function showStateMap(){
+/**
+ * capitalize words helper function to match db entries
+ * @param {string} str 
+ * @returns {string}
+ */
+function capitalizeWords(str) {
+    const strippedStr = str.replace(/[.,\/#!$%\^&\*;:{}=\-`~()]/g, "").replace(/_/g, " ");
+    
+    return strippedStr.split(' ')
+                      .filter(word => word.length > 0)
+                      .map(word => {
+                          const upperWord = word.toUpperCase();
+                          return word.charAt(0).toUpperCase() + word.slice(1).toLowerCase();
+                      })
+                      .join(' ');
+}
+
+/**
+ * fetch sales tax for a given county/state
+ * @param {string} county 
+ * @param {string} state 
+ * @returns {Promise<number|null>} - either returns tax rate or null
+ */
+async function getSalesTax(arr) {
+    const county = arr[0];
+    const state = arr[1];
+    
+    const params = {
+        county: county,
+        state: state
+    };
+
+    try {
+        const response = await fetch("get_tax.php", {
+            method: "POST",
+            body: JSON.stringify(params),
+            headers: {
+                "Content-Type": "application/json; charset=UTF-8"
+            }
+        });
+
+        // error/response handling
+        if (response.ok) {
+            const data = await response.json();
+            // Data found (status 200)
+            if (data.tax !== null) {
+                console.log(`Sales tax for ${county}, ${state}: ${data.tax}`);
+                return data.tax; // Return the tax rate
+            } else {
+                // Data not found (status 404, or 200 with tax: null)
+                console.warn(`No sales tax found for ${county}, ${state}. Message: ${data.message || 'Data not found.'}`);
+                return null;
+            }
+        } else {
+            // Handle HTTP errors (e.g., 400, 404, 500)
+            const errorData = await response.json();
+            if (response.status === 400) {
+                console.error(`Client Error (400 Bad Request): ${errorData.error}`);
+            } else if (response.status === 404) {
+                console.warn(`Not Found (404): ${errorData.message}`);
+            } else if (response.status === 500) {
+                console.error(`Server Error (500 Internal Server Error): ${errorData.error}`);
+            } else {
+                console.error(`HTTP Error ${response.status}: ${errorData.error || 'Unknown error.'}`);
+            }
+            return null; // error return null
+        }
+    } catch (error) {
+        console.error('Network or parsing error:', error);
+        return null;
+    }
+}
+
+/**
+ * show the full state map 
+ */
+function showStateMap() {
     console.log("showing state map");
+    // reset onclicks/floating windows
+    hideFloatingTaxWindow();
+    removeCountyClickListeners();
+    
     document.getElementById("countiesMap").style.display = 'none';    
     let stateMap = document.getElementById("statesMap");
     stateMap.style.display = 'block';
@@ -144,31 +348,41 @@ function showStateMap(){
 
     // Add event listeners for each state
     states.forEach((stateName, abbreviation) => {
-        // Get all elements that have the state abbreviation as a class name
         const stateElements = document.getElementsByClassName(abbreviation);
-
-        // Iterate through all elements found for this state abbreviation
+        //set unique listeners
         for (let i = 0; i < stateElements.length; i++) {
-        const stateElement = stateElements[i];
-        // Use an anonymous function to capture the current stateName
-        stateElement.addEventListener('click', () => {
-            showOnlyState(stateName);
-        });
+            const stateElement = stateElements[i];
+            stateElement.removeEventListener('click', () => {
+                showOnlyState(stateName);
+            });
+            stateElement.addEventListener('click', () => {
+                showOnlyState(stateName);
+            });
         }
     });
 }
 
-function showCountyMap(){
+/**
+ * Shows us map with all counties
+ */
+function showCountyMap() {
     console.log("showing county map");
+    //reset onclicks/floating windows
+    hideFloatingTaxWindow(); 
     showAllStates();
-    document.getElementById("statesMap").style.display = "none"
+    document.getElementById("statesMap").style.display = "none";
     
     document.getElementById("countiesMap").style.display = 'block';
+    
+    // Add county click listeners for full county map
+    addCountyClickListeners();
+    
     const fullStatesMapButton = document.getElementById("viewStatesMapButton");
+    fullStatesMapButton.removeEventListener('click', showStateMap);
     fullStatesMapButton.addEventListener('click', showStateMap);
 }
 
-// Resets the map by showing all state elements, which is useful for returning from a single-state view to the full map.
+// show full map and resets elements
 function showAllStates() {
 allStateIds.forEach(stateId => {
     const element = document.getElementById(stateId);
@@ -178,7 +392,6 @@ allStateIds.forEach(stateId => {
     console.warn(`Element with ID "${stateId}" not found.`);
     }
 });
-// Show the "borders" element when displaying all states
 const bordersElement = document.getElementById("borders");
 if (bordersElement) {
     bordersElement.style.display = 'block';
@@ -189,9 +402,29 @@ if (bordersElement) {
 
 //add esc button to go to full map
 document.addEventListener("keydown",(e)=>{
-        if(e.key==='Escape') {
-            showStateMap();
-        }
-    });
-showStateMap(); // Starts the call to display the map
+    if(e.key==='Escape') {
+        hideFloatingTaxWindow();
+        showStateMap();
+    }
+});
 
+// hide floating window when clicking outside
+document.addEventListener('click', (e) => {
+    if (currentFloatingWindow && !currentFloatingWindow.contains(e.target) && !e.target.closest('path')) {
+        hideFloatingTaxWindow();
+    }
+});
+
+document.getElementById("stateSelection").addEventListener("change",(e)=>{
+   let selectedState = e.target.value;
+   console.log(selectedState);
+   hideFloatingTaxWindow(); // Hide floating window when changing state selection
+   
+   if(selectedState==="-- Display All States --"){
+    showStateMap();
+   }else { 
+   showOnlyState(selectedState);
+   }
+});
+
+showStateMap(); // init

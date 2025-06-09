@@ -1,7 +1,7 @@
 <?php
 
 // Creating the database file
-$database_file = __DIR__ . "taxrates.db";
+$database_file = "taxrates.db";
 
 try {
     // Creating a database instance
@@ -57,11 +57,11 @@ try {
     echo "NOTE: Inserted data into database successfully!";
 
     /* Displaying the database as a test to make sure database is populated */
-    // $test_query = $pdo->query("SELECT * from sales_tax");
-    // $fields = $test_query->fetchAll(PDO::FETCH_ASSOC);
-    // foreach ($fields as $field) {
-    //     print_r($field);
-    // }
+    $test_query = $pdo->query("SELECT * from sales_tax");
+    $fields = $test_query->fetchAll(PDO::FETCH_ASSOC);
+    foreach ($fields as $field) {
+        print_r($field);
+    }
 
 
 } catch (Exception $e) {
