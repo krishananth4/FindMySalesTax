@@ -3,7 +3,7 @@
     "counties": [
         {
             "name": "Adams County",
-            "taxRate": 9
+            "taxRate": 9.0
         },
         {
             "name": "Alexander County",
@@ -23,11 +23,11 @@
         },
         {
             "name": "Bureau County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Calhoun County",
-            "taxRate": 9
+            "taxRate": 9.0
         },
         {
             "name": "Carroll County",
@@ -39,11 +39,11 @@
         },
         {
             "name": "Champaign County",
-            "taxRate": 9
+            "taxRate": 9.0
         },
         {
             "name": "Christian County",
-            "taxRate": 9
+            "taxRate": 9.0
         },
         {
             "name": "Clark County",
@@ -123,11 +123,11 @@
         },
         {
             "name": "Greene County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Grundy County",
-            "taxRate": 9
+            "taxRate": 9.0
         },
         {
             "name": "Hamilton County",
@@ -143,7 +143,7 @@
         },
         {
             "name": "Henderson County",
-            "taxRate": 8
+            "taxRate": 8.0
         },
         {
             "name": "Henry County",
@@ -179,7 +179,7 @@
         },
         {
             "name": "Kane County",
-            "taxRate": 11
+            "taxRate": 11.0
         },
         {
             "name": "Kankakee County",
@@ -191,7 +191,7 @@
         },
         {
             "name": "Knox County",
-            "taxRate": 10
+            "taxRate": 10.0
         },
         {
             "name": "La Salle County",
@@ -199,7 +199,7 @@
         },
         {
             "name": "Lake County",
-            "taxRate": 10
+            "taxRate": 10.0
         },
         {
             "name": "Lawrence County",
@@ -247,11 +247,11 @@
         },
         {
             "name": "Mcdonough County",
-            "taxRate": 9
+            "taxRate": 9.0
         },
         {
             "name": "Mchenry County",
-            "taxRate": 9
+            "taxRate": 9.0
         },
         {
             "name": "Mclean County",
@@ -271,6 +271,142 @@
         },
         {
             "name": "Montgomery County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Morgan County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Moultrie County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Ogle County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Peoria County",
+            "taxRate": 10.0
+        },
+        {
+            "name": "Perry County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Piatt County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Pike County",
+            "taxRate": 8.0
+        },
+        {
+            "name": "Pope County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Pulaski County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Putnam County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Randolph County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Richland County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Rock Island County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Saline County",
+            "taxRate": 8.75
+        },
+        {
+            "name": "Sangamon County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Schuyler County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Scott County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Shelby County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "St Clair County",
+            "taxRate": 9.85
+        },
+        {
+            "name": "Stark County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Stephenson County",
+            "taxRate": 9.0
+        },
+        {
+            "name": "Tazewell County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Union County",
+            "taxRate": 9.5
+        },
+        {
+            "name": "Vermilion County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Wabash County",
+            "taxRate": 7.25
+        },
+        {
+            "name": "Warren County",
+            "taxRate": 11.0
+        },
+        {
+            "name": "Washington County",
+            "taxRate": 7.75
+        },
+        {
+            "name": "Wayne County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "White County",
+            "taxRate": 8.25
+        },
+        {
+            "name": "Whiteside County",
+            "taxRate": 9.25
+        },
+        {
+            "name": "Will County",
+            "taxRate": 10.25
+        },
+        {
+            "name": "Williamson County",
+            "taxRate": 10.0
+        },
+        {
+            "name": "Winnebago County",
+            "taxRate": 9.75
+        },
+        {
+            "name": "Woodford County",
             "taxRate": 9.25
         }
     ]
