@@ -1,5 +1,4 @@
-
-h1{
+h1 {
     text-decoration: underline;
     font-weight: bold;
     text-align: center;
@@ -7,7 +6,7 @@ h1{
     margin-bottom: 50px;
 }
 
-p{
+p {
     text-align: justify;
     font-size: 20px;
 }

@@ -59,7 +59,7 @@ nav a {
     margin: 0 5px;
 }
 
-nav a:hover {
+nav .navA:hover {
     background-color: rgba(255, 255, 255, 0.2);
     transform: translateY(-2px);
 }
@@ -72,9 +72,6 @@ nav .logo {
     transition: transform 0.3s ease;
 }
 
-nav .logo:hover {
-    transform: scale(1.05);
-}
 
 /* Main content */
 main {

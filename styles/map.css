@@ -1,13 +1,25 @@
-
 .state {
-    fill:#D0D0D0;
-}                        /* default color for all states not specified below */
+    fill: #D0D0D0;
+}
+
+/* default color for all states not specified below */
 .borders {
-    stroke:#FFFFFF; 
-    stroke-width:1;
-}    /* color and width of borders between states */
-.dccircle {display:yes}                      /* set display to yes to show the circle for the District of Columbia, or none to hide it */
-.separator1 {stroke:#B0B0B0; stroke-width:2} /* color and width of lines around Alaska and Hawaii */
+    stroke: #FFFFFF;
+    stroke-width: 1;
+}
+
+/* color and width of borders between states */
+.dccircle {
+    display: yes
+}
+
+/* set display to yes to show the circle for the District of Columbia, or none to hide it */
+.separator1 {
+    stroke: #B0B0B0;
+    stroke-width: 2
+}
+
+/* color and width of lines around Alaska and Hawaii */
 
 /* Individual states can be colored as follows:
 .ks,.mt,.pa {fill:#0000FF}
@@ -15,74 +27,102 @@
 In this example, Kansas, Montana and Pennsylvania are colored blue, and California and Delaware are colored red.
 Place this code in the empty space below. */
 
+h1 {
+    text-align: center;
+}
+
 
 /* State Average Sales Tax Legend */
-.noSalesTax { fill: #d6eaf8; }        /* 0% Sales tax */
-.lowSalesTax { fill: #a8cde8; }       /* >0% to <2% avg sales tax */
-.mediumSalesTax { fill: #7eb1d8; }    /* >2% to 6.5% avg sales tax */
-.highSalesTax { fill: #5996c7; }      /* >6.5% to <8% avg sales tax */
-.veryHighSalesTax { fill: #3e7ab0; }  /* >8% avg sales tax */
+.noSalesTax {
+    fill: #d6eaf8;
+}
 
-.hoverFill:hover{
-fill:#1c3f5e;
+/* 0% Sales tax */
+.lowSalesTax {
+    fill: #a8cde8;
 }
-          
+
+/* >0% to <2% avg sales tax */
+.mediumSalesTax {
+    fill: #7eb1d8;
+}
+
+/* >2% to 6.5% avg sales tax */
+.highSalesTax {
+    fill: #5996c7;
+}
+
+/* >6.5% to <8% avg sales tax */
+.veryHighSalesTax {
+    fill: #3e7ab0;
+}
+
+/* >8% avg sales tax */
+
+.hoverFill:hover {
+    fill: #1c3f5e;
+}
+
 path {
-    fill:#d0d0d0;stroke:#000;stroke-width:.17829;
+    fill: #d0d0d0;
+    stroke: #000;
+    stroke-width: .17829;
 }
+
 #borders {
-    fill:none;
-    stroke:#221e1f;
-    stroke-width:.89143;
+    fill: none;
+    stroke: #221e1f;
+    stroke-width: .89143;
 }
+
 #separatorAK-HI {
-    fill:none;
-    stroke:#a9a9a9;
-    stroke-width:2.3177309;
+    fill: none;
+    stroke: #a9a9a9;
+    stroke-width: 2.3177309;
 }
 
 /*
 #separatorAK-HI{display: none;}
 #Alabama {display: none;}
 */
-path:hover{
+path:hover {
     fill: rgb(243, 239, 146);
 }
 
 button {
-  background-color: #0a6bff;
-  border-radius: 4px;
-  border: 0;
-  box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
-  box-sizing: border-box;
-  color: #fff;
-  cursor: pointer;
-  display: inherit;
-  font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 24px;
-  margin: 0;
-  min-height: 56px;
-  min-width: 120px;
-  padding: 16px 20px;
-  position: relative;
-  text-align: center;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: baseline;
-  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+    background-color: #0a6bff;
+    border-radius: 4px;
+    border: 0;
+    box-shadow: rgba(1, 60, 136, .5) 0 -1px 3px 0 inset, rgba(0, 44, 97, .1) 0 3px 6px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inherit;
+    font-family: "Space Grotesk", -apple-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0;
+    min-height: 56px;
+    min-width: 120px;
+    padding: 16px 20px;
+    position: relative;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    transition: all .2s cubic-bezier(.22, .61, .36, 1);
 }
 
 button:hover {
-  background-color: #065dd8;
-  transform: translateY(-2px);
+    background-color: #065dd8;
+    transform: translateY(-2px);
 }
 
 @media (min-width: 768px) {
-  button-66 {
-    padding: 16px 44px;
-    min-width: 150px;
-  }
+    button-66 {
+        padding: 16px 44px;
+        min-width: 150px;
+    }
 }
