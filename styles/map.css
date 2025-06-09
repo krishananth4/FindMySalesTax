@@ -46,5 +46,5 @@ path {
 #Alabama {display: none;}
 */
 path:hover{
-    fill: pink;
+    fill: rgb(243, 239, 146);
 }

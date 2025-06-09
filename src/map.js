@@ -1,4 +1,5 @@
- const states = new Map([
+// State codes map
+const states = new Map([
 ["al", "Alabama"],
 ["ak", "Alaska"],
 ["az", "Arizona"],
@@ -96,8 +97,39 @@ function showOnlyState(stateToShow) {
         console.warn(`Element with ID "borders" not found.`);
     }
 
+    Array.from(document.getElementsByTagName('path')).forEach(e => {
+        e.addEventListener('click', () => {
+            const titleElement = e.querySelector('title');
+            if (titleElement) {
+                console.log(titleElement.textContent);
+                let countyName = titleElement.textContent; // ex. Hennepin, MN
+                //invoke call to DB here based on the textcontent
+                console.log(findStateName(countyName));
+
+            }
+        });
+    });
+
+    //udpate switch button
     const fullStatesMapButton = document.getElementById("viewStatesMapButton");
     fullStatesMapButton.addEventListener('click', showStateMap);
+}
+
+/**
+ * finds the state name from pre-defined map for use in matching json.
+ * @param {string} code - County name, state code
+ * @returns {Array} - county, state name
+ */
+function findStateName(code) {
+    const [county, stateCode] = code.split(',').map(s => s.trim().toLowerCase());
+
+    const fullStateName = states.get(stateCode).replace(/_/g, ' ').toLowerCase();
+    if (!fullStateName) {
+        console.warn(`Unrecognized state code: ${stateCode}`);
+        return code;
+    }
+
+    return [county, fullStateName];
 }
 
 function showStateMap(){
