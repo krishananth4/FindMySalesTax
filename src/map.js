@@ -66,17 +66,17 @@ const allStateIds = [
     "Washington", "West_Virginia", "Wisconsin", "Wyoming", "DC"
 ];
 
-// track unique element states
+// Global variable declarations
 let currentFloatingWindow = null;
 let countyClickHandler = null;
-// Enhanced version with zoom functionality
-// Add these variables at the top with your existing globals
 let currentZoom = 1;
 let currentPanX = 0;
 let currentPanY = 0;
 let svgElement = null;
 
-// Initialize SVG element reference
+/**
+ *  initializes the overall map and attaches #transform-group to it
+ */
 function initializeSVG() {
     svgElement = document.querySelector('#countiesMap svg') || document.querySelector('svg');
     if (svgElement) {
@@ -102,7 +102,7 @@ function initializeSVG() {
     }
 }
 
-// Get bounding box of a state element
+// Get bounding box of a state element for use in zooming
 function getStateBounds(stateId) {
     const stateElement = document.getElementById(stateId);
     if (!stateElement) return null;
@@ -123,7 +123,14 @@ function getStateBounds(stateId) {
     }
 }
 
-// Apply zoom and pan transformation
+/**
+ * creates a smooth animation for transforms such as zoom or reset
+ * @param {int} zoom 
+ * @param {int} panX 
+ * @param {int} panY 
+ * @param {int} duration 
+ * @returns 
+ */
 function applyTransform(zoom, panX, panY, duration = 500) {
     const transformGroup = svgElement?.querySelector('#transform-group');
     if (!transformGroup) return;
@@ -142,7 +149,12 @@ function applyTransform(zoom, panX, panY, duration = 500) {
     }, duration);
 }
 
-// Zoom to fit a specific state
+/**
+ * zooms to a specific state based on given params
+ * @param {string} stateId
+ * @param {*} zoomPadding 
+ * @returns {null} - if svg or bounds not found
+ */
 function zoomToState(stateId, zoomPadding = 50) {
     if (!svgElement) {
         console.warn('SVG element not found');
@@ -473,7 +485,7 @@ function showStateMap() {
 }
 
 /**
- * Shows us map with all counties
+ * Shows US map with all counties
  */
 function showCountyMap() {
     console.log("showing county map");
@@ -506,7 +518,10 @@ function showAllStates() {
         }
     });
 }
-
+/**
+ * adds mouse functionality to svgelement
+ * @returns {null} -if svgElement not found
+ */
 function addMousePanDrag() {
     if (!svgElement) return;
 
@@ -542,7 +557,10 @@ function addMousePanDrag() {
         }
     });
 }
-
+/**
+ * binds mousewheel listener to svgelement 
+ * @returns {null} - if svgElement not found
+ */
 function addMouseWheelZoom() {
     if (!svgElement) return;
 
@@ -565,18 +583,10 @@ function addMouseWheelZoom() {
     });
 }
 
-
-//add esc button to go to full map
-document.addEventListener("keydown", (e) => {
-    if (e.key === 'Escape') {
-        hideFloatingTaxWindow();
-        showStateMap();
-        resetZoom();
-    }
-});
-
+/**
+ * Initialize all starting functions and element binds
+ */
 function init() {
-
     // hide floating window when clicking outside
     document.addEventListener('click', (e) => {
         if (currentFloatingWindow && !currentFloatingWindow.contains(e.target) && !e.target.closest('path')) {
@@ -594,6 +604,16 @@ function init() {
             showStateMap();
         } else {
             showOnlyState(selectedState);
+        }
+    });
+
+
+    //add esc button to go to full map
+    document.addEventListener("keydown", (e) => {
+        if (e.key === 'Escape') {
+            hideFloatingTaxWindow();
+            showStateMap();
+            resetZoom();
         }
     });
     showStateMap(); // init
