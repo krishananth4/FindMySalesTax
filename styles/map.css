@@ -17,14 +17,14 @@ Place this code in the empty space below. */
 
 
 /* State Average Sales Tax Legend */
-.noSalesTax{fill: #d5b3ff;} /* 0% Sales tax */
-.lowSalesTax{fill: #b375ff;} /* greater than 0% to less than 2% average sales tax*/
-.mediumSalesTax{fill: #8744c5;} /* greater than 2% to 6.5% average sales tax*/
-.highSalesTax{fill: #4b0082;} /* greater than 6.5% to less than 8% average sales tax*/
-.veryHighSalesTax{fill: #22003a;} /* greater than 8% to less than 8% average sales tax*/
+.noSalesTax { fill: #d6eaf8; }        /* 0% Sales tax */
+.lowSalesTax { fill: #a8cde8; }       /* >0% to <2% avg sales tax */
+.mediumSalesTax { fill: #7eb1d8; }    /* >2% to 6.5% avg sales tax */
+.highSalesTax { fill: #5996c7; }      /* >6.5% to <8% avg sales tax */
+.veryHighSalesTax { fill: #3e7ab0; }  /* >8% avg sales tax */
 
 .hoverFill:hover{
-fill:pink;
+fill:#1c3f5e;
 }
           
 path {
