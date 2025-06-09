@@ -95,11 +95,6 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-#searchByState:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.15);
-}
-
 #searchByState h2 {
     color: #4a5568;
     margin-bottom: 20px;
@@ -143,7 +138,6 @@ select:focus {
     outline: none;
     border-color: #667eea;
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
-    transform: translateY(-2px);
 }
 
 select:hover {
