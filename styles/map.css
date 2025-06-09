@@ -121,13 +121,7 @@ button:hover {
 }
 
 @media (min-width: 768px) {
-<<<<<<< Updated upstream
-    button-66 {
-        padding: 16px 44px;
-        min-width: 150px;
-    }
-=======
-  button-66 {
+  button {
     padding: 16px 44px;
     min-width: 150px;
   }
@@ -135,5 +129,4 @@ button:hover {
 
 #countiesMap{
     justify-items: center;
->>>>>>> Stashed changes
 }
