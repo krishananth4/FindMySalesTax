@@ -13,6 +13,7 @@ body {
     color: #333;
     line-height: 1.6;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 /* Header/Navigation */
@@ -101,10 +102,11 @@ main {
 
 /* Different maps section */
 #differentMaps {
+    justify-items: center;
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(15px);
     border-radius: 20px;
-    padding: 30px;
+    padding: 3rem;
     margin: 30px 0;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
     border: 1px solid rgba(255, 255, 255, 0.2);
