@@ -66,6 +66,62 @@ const allStateIds = [
     "Washington", "West_Virginia", "Wisconsin", "Wyoming", "DC"
 ];
 
+// Map state values to their county dropdown container IDs
+const countyDropdownMap = new Map([
+    ["Alabama", "searchAlabamaCounties"],
+    ["Alaska", "searchAlaskaCounties"],
+    ["Arizona", "searchArizonaCounties"],
+    ["Arkansas", "searchArkansasCounties"],
+    ["California", "searchCaliforniaCounties"],
+    ["Colorado", "searchColoradoCounties"],
+    ["Connecticut", "searchConnecticutCounties"],
+    ["Delaware", "searchDelawareCounties"],
+    ["Florida", "searchFloridaCounties"],
+    ["Georgia", "searchGeorgiaCounties"],
+    ["Hawaii", "searchHawaiiCounties"],
+    ["Idaho", "searchIdahoCounties"],
+    ["Illinois", "searchIllinoisCounties"],
+    ["Indiana", "searchIndianaCounties"],
+    ["Iowa", "searchIowaCounties"],
+    ["Kansas", "searchKansasCounties"],
+    ["Kentucky", "searchKentuckyCounties"],
+    ["Louisiana", "searchLouisianaCounties"],
+    ["Maine", "searchMaineCounties"],
+    ["Maryland", "searchMarylandCounties"],
+    ["Massachusetts", "searchMassachusettsCounties"],
+    ["Michigan", "searchMichiganCounties"],
+    ["Minnesota", "searchMinnesotaCounties"],
+    ["Mississippi", "searchMississippiCounties"],
+    ["Missouri", "searchMissouriCounties"],
+    ["Montana", "searchMontanaCounties"],
+    ["Nebraska", "searchNebraskaCounties"],
+    ["Nevada", "searchNevadaCounties"],
+    ["New Hampshire", "searchNewHampshireCounties"],
+    ["New Jersey", "searchNewJerseyCounties"],
+    ["New Mexico", "searchNewMexicoCounties"],
+    ["New York", "searchNewYorkCounties"],
+    ["North Carolina", "searchNorthCarolinaCounties"],
+    ["North Dakota", "searchNorthDakotaCounties"],
+    ["Ohio", "searchOhioCounties"],
+    ["Oklahoma", "searchOklahomaCounties"],
+    ["Oregon", "searchOregonCounties"],
+    ["Pennsylvania", "searchPennsylvaniaCounties"],
+    ["Rhode Island", "searchRhodeIslandCounties"],
+    ["South Carolina", "searchSouthCarolinaCounties"],
+    ["South Dakota", "searchSouthDakotaCounties"],
+    ["Tennessee", "searchTennesseeCounties"],
+    ["Texas", "searchTexasCounties"],
+    ["Utah", "searchUtahCounties"],
+    ["Vermont", "searchVermontCounties"],
+    ["Virginia", "searchVirginiaCounties"],
+    ["Washington", "searchWashingtonCounties"],
+    ["West Virginia", "searchWestVirginiaCounties"],
+    ["Wisconsin", "searchWisconsinCounties"],
+    ["Wyoming", "searchWyomingCounties"]
+]);
+
+
+
 // Global variable declarations
 let currentFloatingWindow = null;
 let countyClickHandler = null;
@@ -615,9 +671,29 @@ function init() {
             showStateMap();
         } else {
             showOnlyState(selectedState);
+            // Show the specific county dropdown for the selected state
+            hideAllCountyDropdowns();
+            const countyDropdownId = countyDropdownMap.get(selectedState);
+            if (countyDropdownId) {
+                const countyDropdownElement = document.getElementById(countyDropdownId);
+                if (countyDropdownElement) {
+                    countyDropdownElement.style.display = 'block'; // Or 'flex', 'grid', depending on your CSS layout
+                } else {
+                    console.warn(`County dropdown element with ID "${countyDropdownId}" not found for state "${selectedState}".`);
+                }
+            }
         }
     });
 
+ // Hides all county dropdown container divs.
+function hideAllCountyDropdowns() {
+    countyDropdownMap.forEach(dropdownId => {
+        const element = document.getElementById(dropdownId);
+        if (element) {
+            element.style.display = 'none';
+        }
+    });
+}
 
     //add esc button to go to full map
     document.addEventListener("keydown", (e) => {

@@ -130,3 +130,7 @@ button:hover {
 #countiesMap{
     justify-items: center;
 }
+
+#searchByCounty div {
+    display: none;
+}
