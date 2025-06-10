@@ -1,4 +1,4 @@
-// State codes map
+// State codes map 
 const states = new Map([
     ["al", "Alabama"],
     ["ak", "Alaska"],
@@ -53,7 +53,7 @@ const states = new Map([
     ["dc", "DC"]
 ]);
 
-// Array of all state names
+// Array of all state names 
 const allStateIds = [
     "Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorado",
     "Connecticut", "Delaware", "Florida", "Georgia", "Hawaii", "Idaho",
@@ -66,7 +66,7 @@ const allStateIds = [
     "Washington", "West_Virginia", "Wisconsin", "Wyoming", "DC"
 ];
 
-// Map state values to their county dropdown container IDs
+// Map state values to their county dropdown container IDs 
 const countyDropdownMap = new Map([
     ["Alabama", "searchAlabamaCounties"],
     ["Alaska", "searchAlaskaCounties"],
@@ -96,60 +96,59 @@ const countyDropdownMap = new Map([
     ["Montana", "searchMontanaCounties"],
     ["Nebraska", "searchNebraskaCounties"],
     ["Nevada", "searchNevadaCounties"],
-    ["New Hampshire", "searchNewHampshireCounties"],
-    ["New Jersey", "searchNewJerseyCounties"],
-    ["New Mexico", "searchNewMexicoCounties"],
-    ["New York", "searchNewYorkCounties"],
-    ["North Carolina", "searchNorthCarolinaCounties"],
-    ["North Dakota", "searchNorthDakotaCounties"],
+    ["New_Hampshire", "searchNewHampshireCounties"],
+    ["New_Jersey", "searchNewJerseyCounties"],
+    ["New_Mexico", "searchNewMexicoCounties"],
+    ["New_York", "searchNewYorkCounties"],
+    ["North_Carolina", "searchNorthCarolinaCounties"],
+    ["North_Dakota", "searchNorthDakotaCounties"],
     ["Ohio", "searchOhioCounties"],
     ["Oklahoma", "searchOklahomaCounties"],
     ["Oregon", "searchOregonCounties"],
     ["Pennsylvania", "searchPennsylvaniaCounties"],
-    ["Rhode Island", "searchRhodeIslandCounties"],
-    ["South Carolina", "searchSouthCarolinaCounties"],
-    ["South Dakota", "searchSouthDakotaCounties"],
+    ["Rhode_Island", "searchRhodeIslandCounties"],
+    ["South_Carolina", "searchSouthCarolinaCounties"],
+    ["South_Dakota", "searchSouthDakotaCounties"],
     ["Tennessee", "searchTennesseeCounties"],
     ["Texas", "searchTexasCounties"],
     ["Utah", "searchUtahCounties"],
     ["Vermont", "searchVermontCounties"],
     ["Virginia", "searchVirginiaCounties"],
     ["Washington", "searchWashingtonCounties"],
-    ["West Virginia", "searchWestVirginiaCounties"],
+    ["West_Virginia", "searchWestVirginiaCounties"],
     ["Wisconsin", "searchWisconsinCounties"],
     ["Wyoming", "searchWyomingCounties"]
 ]);
 
-
-
-// Global variable declarations
+// Global variable declarations 
 let currentFloatingWindow = null;
 let countyClickHandler = null;
 let currentZoom = 1;
 let currentPanX = 0;
 let currentPanY = 0;
 let svgElement = null;
+let transformGroup = null; // The group that gets transformed for pan/zoom 
 
 /**
- *  initializes the overall map and attaches #transform-group to it
+ * initializes the overall map and attaches #transform-group to it 
  */
 function initializeSVG() {
     svgElement = document.querySelector('#countiesMap svg') || document.querySelector('svg');
     if (svgElement) {
-        // Add viewBox if it doesn't exist
+        // Add viewBox if it doesn't exist 
         if (!svgElement.getAttribute('viewBox')) {
             const width = svgElement.getAttribute('width') || '989.98';
             const height = svgElement.getAttribute('height') || '627.07';
             svgElement.setAttribute('viewBox', `0 0 ${width} ${height}`);
         }
 
-        // Add transform group if it doesn't exist
+        // Add transform group if it doesn't exist 
         let transformGroup = svgElement.querySelector('#transform-group');
         if (!transformGroup) {
             transformGroup = document.createElementNS('http://www.w3.org/2000/svg', 'g');
             transformGroup.id = 'transform-group';
 
-            // Move all existing content into the transform group
+            // Move all existing content into the transform group 
             while (svgElement.firstChild) {
                 transformGroup.appendChild(svgElement.firstChild);
             }
@@ -158,7 +157,7 @@ function initializeSVG() {
     }
 }
 
-// Get bounding box of a state element for use in zooming
+// Get bounding box of a state element for use in zooming 
 function getStateBounds(stateId) {
     const stateElement = document.getElementById(stateId);
     if (!stateElement) return null;
@@ -180,12 +179,12 @@ function getStateBounds(stateId) {
 }
 
 /**
- * creates a smooth animation for transforms such as zoom or reset
- * @param {int} zoom 
- * @param {int} panX 
- * @param {int} panY 
- * @param {int} duration 
- * @returns 
+ * creates a smooth animation for transforms such as zoom or reset 
+ * @param {int} zoom  
+ * @param {int} panX  
+ * @param {int} panY  
+ * @param {int} duration  
+ * @returns  
  */
 function applyTransform(zoom, panX, panY, duration = 500) {
     const transformGroup = svgElement?.querySelector('#transform-group');
@@ -195,21 +194,21 @@ function applyTransform(zoom, panX, panY, duration = 500) {
     currentPanX = panX;
     currentPanY = panY;
 
-    // Add smooth transition
+    // Add smooth transition 
     transformGroup.style.transition = `transform ${duration}ms ease-in-out`;
     transformGroup.style.transform = `translate(${panX}px, ${panY}px) scale(${zoom})`;
 
-    // Remove transition after animation completes
+    // Remove transition after animation completes 
     setTimeout(() => {
         transformGroup.style.transition = '';
     }, duration);
 }
 
 /**
- * zooms to a specific state based on given params
- * @param {string} stateId
- * @param {*} zoomPadding 
- * @returns {null} - if svg or bounds not found
+ * zooms to a specific state based on given params 
+ * @param {string} stateId 
+ * @param {*} zoomPadding  
+ * @returns {null} - if svg or bounds not found 
  */
 function zoomToState(stateId, zoomPadding = 50) {
     if (!svgElement) {
@@ -223,39 +222,99 @@ function zoomToState(stateId, zoomPadding = 50) {
         return;
     }
 
-    // Get SVG container dimensions
+    // Get SVG container dimensions 
     const svgRect = svgElement.getBoundingClientRect();
     const containerWidth = svgRect.width;
     const containerHeight = svgRect.height;
 
-    // Calculate zoom level to fit state with padding
+    // Calculate zoom level to fit state with padding 
     const scaleX = (containerWidth - zoomPadding * 2) / bounds.width;
     const scaleY = (containerHeight - zoomPadding * 2) / bounds.height;
-    const zoom = Math.min(scaleX, scaleY, 5); // Max zoom of 5x
+    const zoom = Math.min(scaleX, scaleY, 5); // Max zoom of 5x 
 
-    // Calculate pan to center the state
+    // Calculate pan to center the state 
     const panX = (containerWidth / 2) - (bounds.centerX * zoom);
     const panY = (containerHeight / 2) - (bounds.centerY * zoom);
 
     applyTransform(zoom, panX, panY);
 }
 
-// Reset zoom to show full map
+// Reset zoom to show full map 
 function resetZoom() {
     applyTransform(1, 0, 0);
 }
 /**
- * handle click event for county
+ * handle click event for county 
  */
 async function handleCountyClick(event) {
     hideFloatingTaxWindow();
 
     const titleElement = event.target.querySelector('title');
     if (titleElement) {
-        let countyName = titleElement.textContent;
-        let loc = findStateName(countyName);
+        let fullCountyTitle = titleElement.textContent; // e.g., "Fairfield, CT" 
+        let [countyNameFromTitle, stateCodeFromTitle] = fullCountyTitle.split(',').map(s => s.trim());
 
-        //get location
+        // Convert state code (e.g., "CT") to full state name (e.g., "Connecticut") 
+        let stateName = states.get(stateCodeFromTitle.toLowerCase());
+
+        if (stateName) {
+            // 1. Update the State Dropdown 
+            const stateSelection = document.getElementById("stateSelection");
+            let stateFoundInDropdown = false;
+            Array.from(stateSelection.options).forEach(option => {
+                if (option.value === stateName) {
+                    option.selected = true;
+                    stateFoundInDropdown = true;
+                } else {
+                    option.selected = false;
+                }
+            });
+
+            if (stateFoundInDropdown) {
+                const changeEvent = new Event('change');
+                stateSelection.dispatchEvent(changeEvent);
+
+                // Add a small delay to ensure the correct county dropdown container is rendered 
+                // and populated (if dynamic) before attempting to select an option. 
+                setTimeout(() => {
+                    // Get the SELECT element directly using the updated countyDropdownMap 
+                    const countyDropdownElementId = countyDropdownMap.get(stateName);
+                    const countyDropdownElement = document.getElementById(countyDropdownElementId);
+
+                    if (countyDropdownElement) {
+                        let countyFoundInDropdown = false;
+                        // *** THIS IS THE KEY MODIFICATION *** // Append " County" to the capitalized name to match dropdown options 
+                        const targetCountyName = capitalizeWords(countyNameFromTitle) + " County";
+
+                        Array.from(countyDropdownElement.options).forEach(option => {
+                            if (option.textContent.trim() === targetCountyName) {
+                                option.selected = true;
+                                countyFoundInDropdown = true;
+                            } else {
+                                option.selected = false;
+                            }
+                        });
+
+                        if (!countyFoundInDropdown) {
+                            console.warn(`County "${targetCountyName}" not found in dropdown options for state "${stateName}".`);
+                            // Optionally, reset county dropdown to default if no match is found 
+                            // You might need to adjust the default value string based on your actual option values. 
+                            countyDropdownElement.value = "Default" + stateName.replace(/[^a-zA-Z0-9]/g, ''); // E.g., "DefaultDelaware" 
+                        }
+                    } else {
+                        console.warn(`County dropdown SELECT element with ID "${countyDropdownElementId}" not found for state "${stateName}".`);
+                    }
+                }, 50); // Small delay 
+            } else {
+                console.warn(`State "${stateName}" not found in the main state dropdown.`);
+            }
+
+        } else {
+            console.warn(`Could not determine full state name from state code: "${stateCodeFromTitle}"`);
+        }
+
+        let loc = findStateName(fullCountyTitle); // Keep this for your tax fetching logic 
+
         const x = event.clientX;
         const y = event.clientY;
 
@@ -263,7 +322,6 @@ async function handleCountyClick(event) {
 
         try {
             const taxRate = await getSalesTax(loc);
-            // Update window with actual tax rate
             showFloatingTaxWindow(x, y, loc[0], loc[1], taxRate);
         } catch (error) {
             console.error('Error fetching tax rate:', error);
@@ -273,7 +331,7 @@ async function handleCountyClick(event) {
 }
 
 /**
- * remove county click listeners from all path elements
+ * remove county click listeners from all path elements 
  */
 function removeCountyClickListeners() {
     if (countyClickHandler) {
@@ -284,35 +342,35 @@ function removeCountyClickListeners() {
 }
 
 /**
- * Adds county click listeners to all path elements
+ * Adds county click listeners to all path elements 
  */
 function addCountyClickListeners() {
     removeCountyClickListeners();
     countyClickHandler = handleCountyClick;
 
-    // add click listeners to all elements
+    // add click listeners to all elements 
     Array.from(document.getElementsByTagName('path')).forEach(pathElement => {
         pathElement.addEventListener('click', countyClickHandler);
     });
 }
 
 /**
- * create and display window for tax info
- * @param {number} x 
- * @param {number} y 
- * @param {string} countyName 
- * @param {string} stateName 
- * @param {number|null} taxRate 
+ * create and display window for tax info 
+ * @param {number} x  
+ * @param {number} y  
+ * @param {string} countyName  
+ * @param {string} stateName  
+ * @param {number|null} taxRate  
  */
 function showFloatingTaxWindow(x, y, countyName, stateName, taxRate) {
-    // remove old ones
+    // remove old ones 
     hideFloatingTaxWindow();
 
     const floatingWindow = document.createElement('div');
     floatingWindow.id = 'taxFloatingWindow';
     floatingWindow.className = 'tax-floating-window';
 
-    // create window element
+    // create window element 
     let content;
     if (taxRate !== null && taxRate !== undefined) {
         content = `
@@ -339,7 +397,7 @@ function showFloatingTaxWindow(x, y, countyName, stateName, taxRate) {
 
     floatingWindow.innerHTML = content;
 
-    // position the window and attach it to DOM
+    // position the window and attach it to DOM 
     floatingWindow.style.left = `${x + 10}px`;
     floatingWindow.style.top = `${y - 10}px`;
 
@@ -352,7 +410,7 @@ function showFloatingTaxWindow(x, y, countyName, stateName, taxRate) {
 }
 
 /**
- * Hides and removes the floating tax window
+ * Hides and removes the floating tax window 
  */
 function hideFloatingTaxWindow() {
     if (currentFloatingWindow) {
@@ -367,12 +425,22 @@ function hideFloatingTaxWindow() {
 }
 
 /**
- * hides all other state elements, showing the selected one
- * @param {string} stateToShow 
+ * hides all other state elements, showing the selected one 
+ * @param {string} stateToShow  
  */
 function showOnlyState(stateToShow) {
-    // Hide existing floating windows
+    // Hide existing floating windows 
     hideFloatingTaxWindow();
+
+    const countyDropdownId = countyDropdownMap.get(stateToShow);
+    if (countyDropdownId) {
+        const countyDropdownElement = document.getElementById(countyDropdownId);
+        if (countyDropdownElement) {
+            countyDropdownElement.style.display = 'block';
+        } else {
+            console.warn(`County dropdown element with ID "${countyDropdownId}" not found for state "${selectedState}".`);
+        }
+    }
 
     let stateMap = document.getElementById("statesMap");
     document.getElementById("countiesMap").style.display = 'block';
@@ -380,37 +448,38 @@ function showOnlyState(stateToShow) {
     console.log("Showing only state " + stateToShow);
     stateMap.style.display = 'none';
 
-    // Update the dropdown selector
+    // Update the dropdown selector 
     const stateSelection = document.getElementById("stateSelection");
-    // Iterate through options and set 'selected' for the matching value
+    // Iterate through options and set 'selected' for the matching value 
     Array.from(stateSelection.options).forEach(option => {
         if (option.value === stateToShow) {
             option.selected = true;
         } else {
             option.selected = false;
         }
-    });    
-    
-    // Show/hide states as before
+    });
+
+    // Show/hide states as before 
     allStateIds.forEach(stateId => {
-        const element = document.getElementById("stateId");
+        const element = document.getElementById(stateId);
         if (element) {
             if (stateId === stateToShow) {
                 element.style.display = 'block';
-            } else {
+            } /*else {
                 element.style.display = 'none';
-            }
+            } This else block if you only want to display the state
+            */
         } else {
             console.warn(`Element with ID "${stateId}" not found.`);
         }
     });
 
-    // Add zoom to the selected state
+    // Add zoom to the selected state 
     setTimeout(() => {
         zoomToState(stateToShow);
-    }, 100); // Small delay to ensure display changes are applied
+    }, 100); // Small delay to ensure display changes are applied 
 
-    // Reset onclick handlers
+    // Reset onclick handlers 
     addCountyClickListeners();
 
     const fullStatesMapButton = document.getElementById("viewStatesMapButton");
@@ -419,9 +488,9 @@ function showOnlyState(stateToShow) {
 }
 
 /**
- * finds the state name from pre-defined map for use in matching json.
- * @param {string} code - County name, state code
- * @returns {Array} - county, state name
+ * finds the state name from pre-defined map for use in matching json. 
+ * @param {string} code - County name, state code 
+ * @returns {Array} - county, state name 
  */
 function findStateName(code) {
     const [county, stateCode] = code.split(',').map(s => s.trim().toLowerCase());
@@ -442,9 +511,9 @@ function findStateName(code) {
 }
 
 /**
- * capitalize words helper function to match db entries
- * @param {string} str 
- * @returns {string}
+ * capitalize words helper function to match db entries 
+ * @param {string} str  
+ * @returns {string} 
  */
 function capitalizeWords(str) {
     const strippedStr = str.replace(/[.,\/#!$%\^&\*;:{}=\-`~()]/g, "").replace(/_/g, " ");
@@ -459,10 +528,10 @@ function capitalizeWords(str) {
 }
 
 /**
- * fetch sales tax for a given county/state
- * @param {string} county 
- * @param {string} state 
- * @returns {Promise<number|null>} - either returns tax rate or null
+ * fetch sales tax for a given county/state 
+ * @param {string} county  
+ * @param {string} state  
+ * @returns {Promise<number|null>} - either returns tax rate or null 
  */
 async function getSalesTax(arr) {
     const county = arr[0];
@@ -473,7 +542,7 @@ async function getSalesTax(arr) {
         state: state
     };
     if (state === "Alaska" || state === "Delaware" || state === "Montana" || state === "New Hampshire" || state === "Oregon") {
-        return 0; // No Sales tax for any of the counties
+        return 0; // No Sales tax for any of the counties 
     }
     try {
         const response = await fetch("get_tax.php", {
@@ -484,20 +553,20 @@ async function getSalesTax(arr) {
             }
         });
 
-        // error/response handling
+        // error/response handling 
         if (response.ok) {
             const data = await response.json();
-            // Data found (status 200)
+            // Data found (status 200) 
             if (data.tax !== null) {
                 console.log(`Sales tax for ${county}, ${state}: ${data.tax}`);
-                return data.tax; // Return the tax rate
+                return data.tax; // Return the tax rate 
             } else {
-                // Data not found (status 404, or 200 with tax: null)
+                // Data not found (status 404, or 200 with tax: null) 
                 console.warn(`No sales tax found for ${county}, ${state}. Message: ${data.message || 'Data not found.'}`);
                 return null;
             }
         } else {
-            // Handle HTTP errors (e.g., 400, 404, 500)
+            // Handle HTTP errors (e.g., 400, 404, 500) 
             const errorData = await response.json();
             if (response.status === 400) {
                 console.error(`Client Error (400 Bad Request): ${errorData.error}`);
@@ -508,7 +577,7 @@ async function getSalesTax(arr) {
             } else {
                 console.error(`HTTP Error ${response.status}: ${errorData.error || 'Unknown error.'}`);
             }
-            return null; // error return null
+            return null; // error return null 
         }
     } catch (error) {
         console.error('Network or parsing error:', error);
@@ -517,14 +586,14 @@ async function getSalesTax(arr) {
 }
 
 /**
- * show the full state map 
+ * show the full state map  
  */
 function showStateMap() {
     console.log("showing state map");
-    // Reset zoom first
+    // Reset zoom first 
     resetZoom();
 
-    // Reset onclicks/floating windows
+    // Reset onclicks/floating windows 
     hideFloatingTaxWindow();
     removeCountyClickListeners();
 
@@ -536,7 +605,7 @@ function showStateMap() {
     fullCountyMapButton.removeEventListener('click', showCountyMap);
     fullCountyMapButton.addEventListener('click', showCountyMap);
 
-    // Add event listeners for each state
+    // Add event listeners for each state 
     states.forEach((stateName, abbreviation) => {
         const stateElements = document.getElementsByClassName(abbreviation);
         for (let i = 0; i < stateElements.length; i++) {
@@ -552,21 +621,21 @@ function showStateMap() {
 }
 
 /**
- * Shows US map with all counties
+ * Shows US map with all counties 
  */
 function showCountyMap() {
     console.log("showing county map");
-    // Reset zoom
+    // Reset zoom 
     resetZoom();
 
-    // Reset onclicks/floating windows
+    // Reset onclicks/floating windows 
     hideFloatingTaxWindow();
     showAllStates();
     document.getElementById("statesMap").style.display = "none";
 
     document.getElementById("countiesMap").style.display = 'block';
 
-    // Add county click listeners for full county map
+    // Add county click listeners for full county map 
     addCountyClickListeners();
 
     const fullStatesMapButton = document.getElementById("viewStatesMapButton");
@@ -574,7 +643,7 @@ function showCountyMap() {
     fullStatesMapButton.addEventListener('click', showStateMap);
 }
 
-// show full map and resets elements
+// show full map and resets elements 
 function showAllStates() {
     allStateIds.forEach(stateId => {
         const element = document.getElementById(stateId);
@@ -586,8 +655,8 @@ function showAllStates() {
     });
 }
 /**
- * adds mouse functionality to svgelement
- * @returns {null} -if svgElement not found
+ * adds mouse functionality to svgelement 
+ * @returns {null} -if svgElement not found 
  */
 function addMousePanDrag() {
     if (!svgElement) return;
@@ -597,7 +666,7 @@ function addMousePanDrag() {
     let lastMouseY = 0;
 
     svgElement.addEventListener('mousedown', (e) => {
-        if (e.button === 0) { // Left mouse button
+        if (e.button === 0) { // Left mouse button 
             isDragging = true;
             lastMouseX = e.clientX;
             lastMouseY = e.clientY;
@@ -625,8 +694,8 @@ function addMousePanDrag() {
     });
 }
 /**
- * binds mousewheel listener to svgelement 
- * @returns {null} - if svgElement not found
+ * binds mousewheel listener to svgelement  
+ * @returns {null} - if svgElement not found 
  */
 function addMouseWheelZoom() {
     if (!svgElement) return;
@@ -637,12 +706,12 @@ function addMouseWheelZoom() {
         const zoomFactor = e.deltaY > 0 ? 0.9 : 1.1;
         const newZoom = Math.max(0.5, Math.min(10, currentZoom * zoomFactor));
 
-        // Get mouse position relative to SVG
+        // Get mouse position relative to SVG 
         const rect = svgElement.getBoundingClientRect();
         const mouseX = e.clientX - rect.left;
         const mouseY = e.clientY - rect.top;
 
-        // Calculate new pan to zoom towards mouse position
+        // Calculate new pan to zoom towards mouse position 
         const newPanX = mouseX - (mouseX - currentPanX) * (newZoom / currentZoom);
         const newPanY = mouseY - (mouseY - currentPanY) * (newZoom / currentZoom);
 
@@ -651,10 +720,10 @@ function addMouseWheelZoom() {
 }
 
 /**
- * Initialize all starting functions and element binds
+ * Initialize all starting functions and element binds 
  */
 function init() {
-    // hide floating window when clicking outside
+    // hide floating window when clicking outside 
     document.addEventListener('click', (e) => {
         if (currentFloatingWindow && !currentFloatingWindow.contains(e.target) && !e.target.closest('path')) {
             hideFloatingTaxWindow();
@@ -672,30 +741,20 @@ function init() {
             showStateMap();
         } else {
             showOnlyState(selectedState);
-            // Show the specific county dropdown for the selected state
-            const countyDropdownId = countyDropdownMap.get(selectedState);
-            if (countyDropdownId) {
-                const countyDropdownElement = document.getElementById(countyDropdownId);
-                if (countyDropdownElement) {
-                    countyDropdownElement.style.display = 'block'; // Or 'flex', 'grid', depending on your CSS layout
-                } else {
-                    console.warn(`County dropdown element with ID "${countyDropdownId}" not found for state "${selectedState}".`);
-                }
+        }
+    });
+
+    // Hides all county dropdown container divs. 
+    function hideAllCountyDropdowns() {
+        countyDropdownMap.forEach(dropdownId => {
+            const element = document.getElementById(dropdownId);
+            if (element) {
+                element.style.display = 'none';
             }
-        }
-    });
+        });
+    }
 
- // Hides all county dropdown container divs.
-function hideAllCountyDropdowns() {
-    countyDropdownMap.forEach(dropdownId => {
-        const element = document.getElementById(dropdownId);
-        if (element) {
-            element.style.display = 'none';
-        }
-    });
-}
-
-    //add esc button to go to full map
+    //add esc button to go to full map 
     document.addEventListener("keydown", (e) => {
         if (e.key === 'Escape') {
             hideFloatingTaxWindow();
@@ -703,7 +762,7 @@ function hideAllCountyDropdowns() {
             resetZoom();
         }
     });
-    showStateMap(); // init
+    showStateMap(); // init 
     initializeSVG();
     addMousePanDrag();
     addMouseWheelZoom();
