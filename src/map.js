@@ -665,6 +665,7 @@ function init() {
         let selectedState = e.target.value;
         console.log(selectedState);
         hideFloatingTaxWindow();
+        hideAllCountyDropdowns();
 
         if (selectedState === "-- Display All States --") {
             resetZoom();
@@ -672,7 +673,6 @@ function init() {
         } else {
             showOnlyState(selectedState);
             // Show the specific county dropdown for the selected state
-            hideAllCountyDropdowns();
             const countyDropdownId = countyDropdownMap.get(selectedState);
             if (countyDropdownId) {
                 const countyDropdownElement = document.getElementById(countyDropdownId);
