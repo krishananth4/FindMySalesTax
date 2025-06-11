@@ -16321,6 +16321,7 @@ async function applyHeatmapToDatabase(locations, options = {}) {
                 title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
                 element.appendChild(title);
             }
+            // format element title to be able to be processed by getsalestax
             let titleCounty = location.county.replace(/County$/i,"");
             let titleState;
             for (let [abbr, name] of states.entries()) {
@@ -16357,7 +16358,7 @@ async function applyHeatmapToDatabase(locations, options = {}) {
 
 applyHeatmapToDatabase(allcounties, {
     fillOpacity: 0.8,
-    strokeWidth: 2,
+    strokeWidth: 1,
     strokeColor: '#000',
     minTaxRate: 0,
     maxTaxRate: 12,
@@ -16366,6 +16367,8 @@ applyHeatmapToDatabase(allcounties, {
     batchSize: 5
 }).then(result => {
     console.log('Heatmap application completed:', result);
+    addMousePanDrag();
+    addMouseWheelZoom();
 }).catch(error => {
     console.error('Error applying heatmap:', error);
 });
