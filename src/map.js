@@ -460,19 +460,16 @@ function showOnlyState(stateToShow) {
     });
 
     // Show/hide states as before 
-    allStateIds.forEach(stateId => {
-        const element = document.getElementById(stateId);
-        if (element) {
-            if (stateId === stateToShow) {
-                element.style.display = 'block';
-            } /*else {
-                element.style.display = 'none';
-            } This else block if you only want to display the state
-            */
-        } else {
-            console.warn(`Element with ID "${stateId}" not found.`);
-        }
-    });
+    // allStateIds.forEach(stateId => {
+    //     const element = document.getElementById(stateId);
+    //     if (element) {
+    //         if (stateId === stateToShow) {
+    //             element.style.display = 'block';
+    //         } else {
+    //             element.style.display = 'none';
+    //         }
+    //     }
+    // });
 
     // Add zoom to the selected state 
     setTimeout(() => {
@@ -649,8 +646,6 @@ function showAllStates() {
         const element = document.getElementById(stateId);
         if (element) {
             element.style.display = 'block';
-        } else {
-            console.warn(`Element with ID "${stateId}" not found.`);
         }
     });
 }
