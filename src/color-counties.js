@@ -16321,11 +16321,17 @@ async function applyHeatmapToDatabase(locations, options = {}) {
                 title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
                 element.appendChild(title);
             }
-            let titleCounty = location.county[0];
-            let titleState = location.state.
+            let titleCounty = location.county.replace(/County$/i,"");
+            let titleState;
+            for (let [abbr, name] of states.entries()) {
+              if (name.toLowerCase() === location.state.toLowerCase()) {
+                titleState = abbr;
+                break;
+              }
+            }
             title.textContent = taxRate !== null 
-                ? `${location.county}, ${location.state}: ${taxRate}% sales tax` // FIX: to Marin, CA instead of Marin County, California
-                : `${location.county}, ${location.state}: No tax data available`;
+                ? `${titleCounty}, ${titleState}` // FIX: to Marin, CA instead of Marin County, California
+                : `${titleCounty}, ${titleState}: No tax data available`;
             
             successCount++;
         } else {

@@ -49,7 +49,7 @@ try {
     } else {
         // No matching data found for the given county/state
         http_response_code(404); // Not Found
-        echo json_encode(['tax' => null, 'message' => 'Sales tax data not found for the specified county and state.']);
+        echo json_encode(['tax' => null, 'message' => "Sales tax data not found for $county in $state"]);
     }
 
 } catch (PDOException $e) {
