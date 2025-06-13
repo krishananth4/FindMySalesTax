@@ -295,8 +295,7 @@ async function handleCountyClick(event) {
                 const changeEvent = new Event('change');
                 stateSelection.dispatchEvent(changeEvent);
 
-                // Add a small delay to ensure the correct county dropdown container is rendered
-                // and populated (if dynamic) before attempting to select an option.
+                // Add a small delay to ensure the correct county dropdown container is rendered and populated (if dynamic) before attempting to select an option.
                 setTimeout(() => {
                     // Get the SELECT element directly using the updated countyDropdownMap
                     const countyDropdownElementId = countyDropdownMap.get(stateName);
@@ -305,7 +304,6 @@ async function handleCountyClick(event) {
                     if (countyDropdownContainer) {
                         const countyDropdownElement = countyDropdownContainer.querySelector('select'); // Get the actual select element
                         if (countyDropdownElement) {
-                            // Convert "Fairfield" from title to "Fairfield_County" for the dropdown value
                             // Ensure the value matches the option's value attribute (e.g., "Autauga_County")
                             const targetCountyValue = capitalizeWords(countyNameFromTitle).replace(/ /g, '_') + "_County";
                             console.log(`Attempting to set county dropdown to value: "${targetCountyValue}"`);
@@ -487,15 +485,16 @@ function showOnlyState(stateToShow) {
     const fullStatesMapButton = document.getElementById("viewStatesMapButton");
     fullStatesMapButton.removeEventListener('click', showStateMap);
     fullStatesMapButton.addEventListener('click', showStateMap);
-
+    
+    
     // Clear any active county highlight when switching states
     highlightMapCounty(null);
 }
 
 /**
  * finds the state name from pre-defined map for use in matching json.
- * @param {string} code - County name, state code (e.g., "Fairfield, CT")
- * @returns {Array} - [countyName, stateName] (e.g., ["Fairfield County", "Connecticut"])
+ * @param {string} code - County name, state code
+ * @returns {Array} - [countyName, stateName]
  */
 function findStateName(code) {
     const [county, stateCode] = code.split(',').map(s => s.trim().toLowerCase());
@@ -509,7 +508,7 @@ function findStateName(code) {
 
     // Capitalize words for county and state to match expected format "County Name", "State Name"
     const countyCap = capitalizeWords(county);
-    // Ensure " County" suffix if not present (this depends on how your get_tax.php expects it)
+    // Ensure " County" suffix if not present
     const finalCountyName = countyCap.endsWith("County") ? countyCap : countyCap + " County";
 
     const stateCap = capitalizeWords(fullStateName); // Uses the map's full name, then capitalizes
@@ -643,9 +642,7 @@ function showStateMap() {
     }
 }
 
-/**
- * Shows US map with all counties
- */
+ // Shows US map with all counties
 function showCountyMap() {
     console.log("showing county map");
     // Reset zoom
@@ -666,18 +663,16 @@ function showCountyMap() {
     fullStatesMapButton.removeEventListener('click', showStateMap);
     fullStatesMapButton.addEventListener('click', showStateMap);
 
-    // Also reset the state dropdown to its default "Select a State"
+    // Resets the state dropdown to its default "Select a State"
     const stateSelection = document.getElementById("stateSelection");
-    const defaultStateOption = Array.from(stateSelection.options).find(option => option.value === ""); // Assuming empty string is default
+    const defaultStateOption = Array.from(stateSelection.options).find(option => option.value === ""); // Assumes empty string is default
     if (defaultStateOption) {
         stateSelection.value = "";
-        stateSelection.dispatchEvent(new Event('change')); // Trigger to hide county dropdowns
+        stateSelection.dispatchEvent(new Event('change')); // Triggers to hide county dropdowns
     }
 }
 
-/**
- * show full map and resets elements
- */
+// shows full map and resets elements
 function showAllStates() {
     allStateIds.forEach(stateId => {
         const element = document.getElementById(stateId);
@@ -756,13 +751,10 @@ function addMouseWheelZoom() {
     });
 }
 
-/**
- * Handles the change event for any county dropdown.
- * Simulates a click on the corresponding SVG county path.
- */
+// Handles the change event for any county dropdown and simulates a click on the corresponding SVG county path.
 async function handleCountyDropdownChange(event) {
-    const selectedCountyValue = event.target.value; // e.g., "Kent_County" or "DefaultDelaware"
-    const countyDropdownId = event.target.id; // e.g., "countySelectionDelaware"
+    const selectedCountyValue = event.target.value; // example: "Kent_County" or "DefaultDelaware"
+    const countyDropdownId = event.target.id; // example: "countySelectionDelaware"
 
     // Extract state name from the dropdown ID by removing "countySelection" prefix
     let stateName = countyDropdownId.replace('countySelection', '');
@@ -794,7 +786,7 @@ async function handleCountyDropdownChange(event) {
     }
 
     // Prepare the title text we expect to find in the SVG path
-    // Example: "Kent, DE"
+    // For example: "Alameda, CA"
     const expectedSvgTitle = `${countyNameForTitle}, ${stateCode.toUpperCase()}`;
 
     console.log(`Looking for SVG path with title: "${expectedSvgTitle}"`);
@@ -812,7 +804,7 @@ async function handleCountyDropdownChange(event) {
 
     if (targetCountyPath) {
         console.log('Found matching SVG path:', targetCountyPath);
-        // Simulate a click on the found SVG path
+        // Simulates a click on the found SVG path
         // Create a custom event object to mimic a real click event
         // clientX/Y are approximate, but needed for the floating window positioning
         const bbox = targetCountyPath.getBoundingClientRect();
