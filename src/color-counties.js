@@ -16321,11 +16321,16 @@ async function applyHeatmapToDatabase(locations, options = {}) {
                 title = document.createElementNS('http://www.w3.org/2000/svg', 'title');
                 element.appendChild(title);
             }
+
+            // Function to add underscores to a string
+            function addUnderscores(str) {
+              return str.replace(/ /g, '_');
+            }
             // format element title to be able to be processed by getsalestax
             let titleCounty = location.county.replace(/County$/i,"");
             let titleState;
             for (let [abbr, name] of states.entries()) {
-              if (name.toLowerCase() === location.state.toLowerCase()) {
+              if (addUnderscores(name.toLowerCase()) === addUnderscores(location.state.toLowerCase())) {
                 titleState = abbr;
                 break;
               }
